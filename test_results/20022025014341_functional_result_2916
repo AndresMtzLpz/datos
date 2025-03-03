@@ -1,3 +1,0 @@
-ROOT: No tox.ini or setup.cfg or pyproject.toml found, assuming empty tox.ini at /home/ubuntu
-  py: OK (0.08 seconds)
-  congratulations :) (0.21 seconds)
