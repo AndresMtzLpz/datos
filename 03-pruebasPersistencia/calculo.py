@@ -59,7 +59,7 @@ if __name__ == "__main__":
     prefijo14 = 'WVIV'
     #prefijos=[prefijo0,prefijo1,prefijo3,prefijo4,prefijo5,prefijo7,prefijo8,prefijo9,prefijo10,prefijo11,prefijo12,prefijo13,prefijo14]
     #prefijos = ['MIA', 'MRS', 'MSC', 'MSFC', 'MVIE', 'MVIV', 'WIDS', 'WIDSL', 'WLEC', 'WSUT', 'WVAE', 'WVAL', 'WVIV']
-    prefijos=[prefijo1]
+    prefijos=[prefijo1,prefijo13,prefijo14]
 
     
     output_directory = "datosEstandarizados3m_90/"  # <-- AJUSTA esta ruta
@@ -92,3 +92,32 @@ if __name__ == "__main__":
     cover_complex.save_to_html(file_name="human", data_name="human", cover_name="uniform", color_name="height")
 
     cover_complex.data = df_numerico.values
+
+    connected_components = list(nx.connected_components(G))
+
+    for i, component_nodes in enumerate(connected_components):
+    # Get all point indices for this component by combining all points from its nodes
+    all_point_indices = []
+    for node_label in component_nodes:
+        point_indices = [cover_complex.node_info_[v]['colors'][0] for v in G.nodes()]
+        all_point_indices.extend(point_indices)
+    
+    component_points = df_numerico.iloc[np.unique(all_point_indices)]
+
+    #print(component_points)
+    
+    print(f"Component {i+1} has {len(component_points)} total points from {len(component_nodes)} nodes.")
+
+    # Compute Persistence on the combined point cloud of the component
+    rips_complex = gd.RipsComplex(points=component_points.values, max_edge_length=3.0)
+    simplex_tree = rips_complex.create_simplex_tree(max_dimension=2)
+    persistence = simplex_tree.persistence()
+    
+
+    fig = gd.plot_persistence_diagram(persistence)
+
+    # Guardar como PNG
+    fig.savefig("diagrama_persistencia{i}.png", dpi=300, bbox_inches='tight')
+
+    # (Opcional) Cierra la figura para liberar memoria
+    plt.close(fig)
