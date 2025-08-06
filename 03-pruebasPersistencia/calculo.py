@@ -114,7 +114,11 @@ if __name__ == "__main__":
         persistence = simplex_tree.persistence()
         
 
-        fig = gd.plot_persistence_diagram(persistence)
+        # Generar el diagrama (AxesSubplot)
+        ax = gd.plot_persistence_diagram(persistence)
+
+        # Obtener la figura asociada al Axes
+        fig = ax.get_figure()
 
         # Guardar como PNG
         fig.savefig("diagrama_persistencia{i}.png", dpi=300, bbox_inches='tight')
