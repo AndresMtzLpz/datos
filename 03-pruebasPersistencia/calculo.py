@@ -77,7 +77,7 @@ if __name__ == "__main__":
     #Se establece el cover - Este no cambia, se usa como motor    
     cover_complex = MapperComplex(
         input_type='distance matrix', min_points_per_node=0,
-        clustering=None, N=100, beta=0., C=10,
+        clustering=None, N=100, beta=0., C=500,
         filter_bnds=None, resolutions=[20,2], gains=None, verbose=verbose)
 
     print("Se construye complejidad")
