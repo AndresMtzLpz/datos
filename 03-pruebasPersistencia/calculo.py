@@ -12,6 +12,7 @@ import pandas as pd
 import networkx as nx
 from sklearn.metrics import pairwise_distances
 from sklearn.cluster import AgglomerativeClustering
+from sklearn.metrics import pairwise_distances
 
 verbose = False
 
@@ -59,7 +60,7 @@ if __name__ == "__main__":
     prefijo14 = 'WVIV'
     #prefijos=[prefijo0,prefijo1,prefijo3,prefijo4,prefijo5,prefijo7,prefijo8,prefijo9,prefijo10,prefijo11,prefijo12,prefijo13,prefijo14]
     #prefijos = ['MIA', 'MRS', 'MSC', 'MSFC', 'MVIE', 'MVIV', 'WIDS', 'WIDSL', 'WLEC', 'WSUT', 'WVAE', 'WVAL', 'WVIV']
-    prefijos=[prefijo1]
+    prefijos=[prefijo13]
 
     
     output_directory = "datosEstandarizados3m_90/"  # <-- AJUSTA esta ruta
@@ -70,15 +71,31 @@ if __name__ == "__main__":
     #Dejar solo los valores númericos (Se quitan los agregados que ayudaron a clasificar por prefijo)
     df_numerico = df_union.select_dtypes(include='number').dropna()
 
+    #Obtener matriz de distancia
+    D = pairwise_distances(df_numerico.values)
+
     #Se establece el cover - Este no cambia, se usa como motor    
     cover_complex = MapperComplex(
-        input_type='point cloud', min_points_per_node=0,
-        clustering=None, N=100, beta=0.5, C=10,
+        input_type='distance matrix', min_points_per_node=0,
+        clustering=None, N=100, beta=0., C=10,
         filter_bnds=None, resolutions=[20,2], gains=None, verbose=verbose)
 
     print("Se construye complejidad")
     #Se construye la omplejidad de Mapper dentro de cover_complex
-    _ = cover_complex.fit(df_numerico.values)
+    _ = cover_complex.fit(D)
+
+    #Se obtiene el grafo con networkx
+    G = cover_complex.get_networkx()
+
+    #Se muestra el grafo
+    plt.figure()
+    nx.draw(G, pos=nx.kamada_kawai_layout(G), node_color=[cover_complex.node_info_[v]["colors"][0] for v in G.nodes()])
+    plt.show()
+
+    #Se guarda en html
+    cover_complex.save_to_html(file_name="human", data_name="human", cover_name="uniform", color_name="height")
+
+    cover_complex.data = df_numerico.values
 
     print("Se obtiene grafo networkx")
     #Se obtiene el grafo con networkx
