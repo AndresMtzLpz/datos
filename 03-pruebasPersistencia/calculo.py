@@ -96,28 +96,28 @@ if __name__ == "__main__":
     connected_components = list(nx.connected_components(G))
 
     for i, component_nodes in enumerate(connected_components):
-    # Get all point indices for this component by combining all points from its nodes
-    all_point_indices = []
-    for node_label in component_nodes:
-        point_indices = [cover_complex.node_info_[v]['colors'][0] for v in G.nodes()]
-        all_point_indices.extend(point_indices)
-    
-    component_points = df_numerico.iloc[np.unique(all_point_indices)]
+        # Get all point indices for this component by combining all points from its nodes
+        all_point_indices = []
+        for node_label in component_nodes:
+            point_indices = [cover_complex.node_info_[v]['colors'][0] for v in G.nodes()]
+            all_point_indices.extend(point_indices)
+        
+        component_points = df_numerico.iloc[np.unique(all_point_indices)]
 
-    #print(component_points)
-    
-    print(f"Component {i+1} has {len(component_points)} total points from {len(component_nodes)} nodes.")
+        #print(component_points)
+        
+        print(f"Component {i+1} has {len(component_points)} total points from {len(component_nodes)} nodes.")
 
-    # Compute Persistence on the combined point cloud of the component
-    rips_complex = gd.RipsComplex(points=component_points.values, max_edge_length=3.0)
-    simplex_tree = rips_complex.create_simplex_tree(max_dimension=2)
-    persistence = simplex_tree.persistence()
-    
+        # Compute Persistence on the combined point cloud of the component
+        rips_complex = gd.RipsComplex(points=component_points.values, max_edge_length=3.0)
+        simplex_tree = rips_complex.create_simplex_tree(max_dimension=2)
+        persistence = simplex_tree.persistence()
+        
 
-    fig = gd.plot_persistence_diagram(persistence)
+        fig = gd.plot_persistence_diagram(persistence)
 
-    # Guardar como PNG
-    fig.savefig("diagrama_persistencia{i}.png", dpi=300, bbox_inches='tight')
+        # Guardar como PNG
+        fig.savefig("diagrama_persistencia{i}.png", dpi=300, bbox_inches='tight')
 
-    # (Opcional) Cierra la figura para liberar memoria
-    plt.close(fig)
+        # (Opcional) Cierra la figura para liberar memoria
+        plt.close(fig)
