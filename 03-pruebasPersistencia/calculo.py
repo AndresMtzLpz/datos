@@ -60,7 +60,7 @@ if __name__ == "__main__":
     prefijo14 = 'WVIV'
     #prefijos=[prefijo0,prefijo1,prefijo3,prefijo4,prefijo5,prefijo7,prefijo8,prefijo9,prefijo10,prefijo11,prefijo12,prefijo13,prefijo14]
     #prefijos = ['MIA', 'MRS', 'MSC', 'MSFC', 'MVIE', 'MVIV', 'WIDS', 'WIDSL', 'WLEC', 'WSUT', 'WVAE', 'WVAL', 'WVIV']
-    prefijos=[prefijo1]
+    prefijos=[prefijo0,prefijo1,prefijo3]
 
     
     output_directory = "datosEstandarizados3m_90/"  # <-- AJUSTA esta ruta
