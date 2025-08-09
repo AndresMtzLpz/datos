@@ -1,149 +1,108 @@
-import os
-import numpy as np
-import matplotlib.pyplot as plt
-from gudhi.cover_complex import MapperComplex, GraphInducedComplex, NerveComplex
-from gudhi import bottleneck_distance
-import numpy as np
-import matplotlib.pyplot as plt
-from tqdm import tqdm
-from mpl_toolkits.mplot3d import Axes3D
-import gudhi as gd
-import pandas as pd
-import networkx as nx
-from sklearn.metrics import pairwise_distances
-from sklearn.cluster import AgglomerativeClustering
-from sklearn.metrics import pairwise_distances
-
-verbose = False
-
-def detectar_prefijo(nombre_archivo, lista_prefijos):
-    for prefijo in lista_prefijos:
-        if nombre_archivo.startswith(prefijo):
-            return prefijo.rstrip("_")
-    return "Otro"
-
-
-def cargar_y_unir_archivos_por_prefijos(directorio, lista_prefijos):
-    archivos = os.listdir(directorio)
-    archivos_filtrados = [
-        f for f in archivos
-        if any(f.startswith(prefijo) for prefijo in lista_prefijos)
-        and f.endswith('_estandardizado.log')
-    ]
-    if not archivos_filtrados:
-        print("⚠️ No se encontraron archivos con los prefijos indicados.")
-        return pd.DataFrame()
-    dataframes = []
-    for archivo in archivos_filtrados:
-        path = os.path.join(directorio, archivo)
-        df = pd.read_csv(path)
-        df["archivo_origen"] = archivo
-        df["prefijo_origen"] = detectar_prefijo(archivo, lista_prefijos)
-        dataframes.append(df)
-    return pd.concat(dataframes, ignore_index=True)
-
 if __name__ == "__main__":
-    prefijo0 = 'MCEFL'
-    prefijo1 = 'MIA'
-    prefijo2 = 'MPFC' #
-    prefijo3 = 'MRS'
-    prefijo4 = 'MSC'
-    prefijo5 = 'MSFC'
-    prefijo6 = 'MVIE' #
-    prefijo7 = 'MVIV'
-    prefijo8 = 'WIDS'
-    prefijo9 = 'WIDSL'
-    prefijo10 = 'WLEC'
-    prefijo11 = 'WSUT'
-    prefijo12 = 'WVAE'
-    prefijo13 = 'WVAL'
-    prefijo14 = 'WVIV'
-    #prefijos=[prefijo0,prefijo1,prefijo3,prefijo4,prefijo5,prefijo7,prefijo8,prefijo9,prefijo10,prefijo11,prefijo12,prefijo13,prefijo14]
-    #prefijos = ['MIA', 'MRS', 'MSC', 'MSFC', 'MVIE', 'MVIV', 'WIDS', 'WIDSL', 'WLEC', 'WSUT', 'WVAE', 'WVAL', 'WVIV']
-    prefijos=[prefijo14]
+    prefijos_todos = [
+        'MCEFL',  # prefijo0
+        'MIA',    # prefijo1
+        'MPFC',   # prefijo2 (excluir)
+        'MRS',    # prefijo3
+        'MSC',    # prefijo4
+        'MSFC',   # prefijo5
+        'MVIE',   # prefijo6 (excluir)
+        'MVIV',   # prefijo7
+        'WIDS',   # prefijo8
+        'WIDSL',  # prefijo9
+        'WLEC',   # prefijo10
+        'WSUT',   # prefijo11
+        'WVAE',   # prefijo12
+        'WVAL',   # prefijo13
+        'WVIV'    # prefijo14
+    ]
 
-    
-    output_directory = "datosEstandarizados3m_90/"  # <-- AJUSTA esta ruta
+    # Prefijos a procesar (excluye prefijo2 y prefijo6)
+    prefijos_a_usar = [p for i, p in enumerate(prefijos_todos) if i not in (2, 6)]
 
-    #Cargar los archivos correspondientes al prefijo
-    df_union = cargar_y_unir_archivos_por_prefijos(output_directory, prefijos)
+    output_directory = "datosEstandarizados3m_90/"  # <-- Carpeta de entrada
 
-    #Dejar solo los valores númericos (Se quitan los agregados que ayudaron a clasificar por prefijo)
-    df_numerico = df_union.select_dtypes(include='number').dropna()
+    for prefijo in prefijos_a_usar:
+        print(f"\n🔹 Procesando prefijo: {prefijo}...")
 
-    #Obtener matriz de distancia
-    D = pairwise_distances(df_numerico.values)
+        # Crear carpeta de salida para este prefijo
+        carpeta_prefijo = os.path.join("resultados", prefijo)
+        os.makedirs(carpeta_prefijo, exist_ok=True)
 
-    #Se establece el cover - Este no cambia, se usa como motor    
-    cover_complex = MapperComplex(
-        input_type='distance matrix', min_points_per_node=0,
-        clustering=None, N=100, beta=0., C=10,
-        filter_bnds=None, resolutions=[20,2], gains=None, verbose=verbose)
+        # Cargar archivos de este prefijo
+        df_union = cargar_y_unir_archivos_por_prefijos(output_directory, [prefijo])
+        if df_union.empty:
+            print(f"⚠️ No hay datos para prefijo {prefijo}, se salta.")
+            continue
 
-    print("Se construye complejidad")
-    #Se construye la omplejidad de Mapper dentro de cover_complex
-    _ = cover_complex.fit(D)
+        # Dejar solo los valores numéricos
+        df_numerico = df_union.select_dtypes(include='number').dropna()
 
-    #Se obtiene el grafo con networkx
-    G = cover_complex.get_networkx()
+        # Obtener matriz de distancia
+        D = pairwise_distances(df_numerico.values)
 
-    #Se muestra el grafo
-    plt.figure()
-    nx.draw(G, pos=nx.kamada_kawai_layout(G), node_color=[cover_complex.node_info_[v]["colors"][0] for v in G.nodes()])
-    plt.show()
+        # Establecer cover
+        cover_complex = MapperComplex(
+            input_type='distance matrix', min_points_per_node=0,
+            clustering=None, N=100, beta=0., C=10,
+            filter_bnds=None, resolutions=[20, 2], gains=None, verbose=verbose
+        )
 
-    #Se guarda en html
-    cover_complex.save_to_html(file_name="human", data_name="human", cover_name="uniform", color_name="height")
+        print("   → Construyendo complejidad Mapper...")
+        _ = cover_complex.fit(D)
 
-    cover_complex.data = df_numerico.values
+        # Guardar grafo PNG
+        G = cover_complex.get_networkx()
+        plt.figure()
+        nx.draw(
+            G,
+            pos=nx.kamada_kawai_layout(G),
+            node_color=[cover_complex.node_info_[v]["colors"][0] for v in G.nodes()]
+        )
+        plt.savefig(os.path.join(carpeta_prefijo, f"grafo_{prefijo}.png"))
+        plt.close()
 
-    print("Se obtiene grafo networkx")
-    #Se obtiene el grafo con networkx
-    G = cover_complex.get_networkx()
+        # Guardar HTML
+        cover_complex.data = df_numerico.values
+        cover_complex.save_to_html(
+            file_name=os.path.join(carpeta_prefijo, f"mapper_{prefijo}"),
+            data_name=f"{prefijo}",
+            cover_name="uniform",
+            color_name="height"
+        )
 
-    #Se muestra el grafo
-    plt.figure()
-    nx.draw(G, pos=nx.kamada_kawai_layout(G), node_color=[cover_complex.node_info_[v]["colors"][0] for v in G.nodes()])
-    plt.show()
+        # Calcular persistencia para componentes conexas > 2 nodos
+        componentes = list(nx.connected_components(G))
+        for i, comp in enumerate(componentes):
+            if len(comp) > 4:
+                all_point_indices = []
+                for node in comp:
+                    point_indices = cover_complex.node_info_[node]["indices"]
+                    all_point_indices.extend(point_indices)
 
-    print("Se guarda html")
-    #Se guarda en html
-    cover_complex.save_to_html(file_name="human", data_name="human", cover_name="uniform", color_name="height")
+                all_point_indices = np.unique(all_point_indices)
+                component_points = df_numerico.values[all_point_indices]
 
+                if len(component_points) > 0:
+                    rips_complex = gd.RipsComplex(points=component_points, sparse=0.1)
+                    simplex_tree = rips_complex.create_simplex_tree(max_dimension=3)
+                    persistence = simplex_tree.persistence()
 
-    # Calcular persistencia para componentes conexas con más de 2 nodos
-    componentes = list(nx.connected_components(G))
+                    # Guardar PNG de persistencia
+                    fig, ax = plt.subplots()
+                    gd.plot_persistence_diagram(persistence, axes=ax)
+                    ax.set_title(f"Persistencia - {prefijo} - Componente {i+1} ({len(comp)} nodos)")
+                    plt.savefig(os.path.join(carpeta_prefijo, f"persistencia_{prefijo}_componente_{i+1}.png"))
+                    plt.close(fig)
 
-    for i, comp in enumerate(componentes):
-        if len(comp) > 2:
-            all_point_indices = []
-            for node in comp:
-                point_indices = cover_complex.node_info_[node]["indices"]
-                all_point_indices.extend(point_indices)
+                    # Guardar CSV
+                    df_persistence = pd.DataFrame(
+                        [(dim, birth, death) for dim, (birth, death) in persistence],
+                        columns=["dimension", "birth", "death"]
+                    )
+                    df_persistence.to_csv(
+                        os.path.join(carpeta_prefijo, f"persistencia_{prefijo}_componente_{i+1}.csv"),
+                        index=False
+                    )
 
-            all_point_indices = np.unique(all_point_indices)
-
-            component_points = df_numerico.values[all_point_indices]
-
-            if len(component_points) > 0:
-                rips_complex = gd.RipsComplex(points=component_points,sparse=0.1)
-                simplex_tree = rips_complex.create_simplex_tree(max_dimension=3)
-                persistence = simplex_tree.persistence()
-
-                fig, ax = plt.subplots()
-                gd.plot_persistence_diagram(persistence, axes=ax)
-                ax.set_title(f"Persistencia - Componente {i+1} ({len(comp)} nodos)")
-                plt.savefig(f"persistencia_componente_{i+1}.png")
-                plt.close(fig)
-
-                print(f"Componente {i+1}: {len(comp)} nodos → {len(component_points)} puntos → Diagrama guardado.")
-
-                # Convertir a DataFrame
-                df_persistence = pd.DataFrame(
-                    [(dim, birth, death) for dim, (birth, death) in persistence],
-                    columns=["dimension", "birth", "death"]
-                )
-
-                # Guardar a CSV
-                df_persistence.to_csv(f"persistencia_componente_{i+1}.csv", index=False)
-
+                    print(f"   → {prefijo} comp {i+1}: {len(comp)} nodos → {len(component_points)} puntos → Guardado.")
