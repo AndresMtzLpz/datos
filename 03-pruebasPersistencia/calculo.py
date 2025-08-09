@@ -60,7 +60,7 @@ if __name__ == "__main__":
     prefijo14 = 'WVIV'
     #prefijos=[prefijo0,prefijo1,prefijo3,prefijo4,prefijo5,prefijo7,prefijo8,prefijo9,prefijo10,prefijo11,prefijo12,prefijo13,prefijo14]
     #prefijos = ['MIA', 'MRS', 'MSC', 'MSFC', 'MVIE', 'MVIV', 'WIDS', 'WIDSL', 'WLEC', 'WSUT', 'WVAE', 'WVAL', 'WVIV']
-    prefijos=[prefijo0,prefijo1,prefijo3]
+    prefijos=[prefijo14]
 
     
     output_directory = "datosEstandarizados3m_90/"  # <-- AJUSTA esta ruta
@@ -77,8 +77,8 @@ if __name__ == "__main__":
     #Se establece el cover - Este no cambia, se usa como motor    
     cover_complex = MapperComplex(
         input_type='distance matrix', min_points_per_node=0,
-        clustering=None, N=1000, beta=0., C=5000,
-        filter_bnds=None, resolutions=[40,3], gains=None, verbose=verbose)
+        clustering=None, N=100, beta=0., C=10,
+        filter_bnds=None, resolutions=[20,2], gains=None, verbose=verbose)
 
     print("Se construye complejidad")
     #Se construye la omplejidad de Mapper dentro de cover_complex
@@ -110,41 +110,31 @@ if __name__ == "__main__":
     #Se guarda en html
     cover_complex.save_to_html(file_name="human", data_name="human", cover_name="uniform", color_name="height")
 
-    cover_complex.data = df_numerico.values
 
-    
-    connected_components = list(nx.connected_components(G))
-    print(f"Se obtienen componentes conexas: {connected_components}")
+    # Calcular persistencia para componentes conexas con más de 2 nodos
+    componentes = list(nx.connected_components(G))
 
-    print("Se hace el calculo de persistencia")
+    for i, comp in enumerate(componentes):
+        if len(comp) > 2:
+            all_point_indices = []
+            for node in comp:
+                point_indices = cover_complex.node_info_[node]["indices"]
+                all_point_indices.extend(point_indices)
 
-    for i, component_nodes in enumerate(connected_components):
-        # Get all point indices for this component by combining all points from its nodes
-        all_point_indices = []
-        for node_label in component_nodes:
-            point_indices = [cover_complex.node_info_[v]['colors'][0] for v in G.nodes()]
-            all_point_indices.extend(point_indices)
-        
-        component_points = df_numerico.iloc[np.unique(all_point_indices)]
+            all_point_indices = np.unique(all_point_indices)
 
-        #print(component_points)
-        
-        print(f"Component {i+1} has {len(component_points)} total points from {len(component_nodes)} nodes.")
+            component_points = df_numerico.values[all_point_indices]
 
-        # Compute Persistence on the combined point cloud of the component
-        rips_complex = gd.RipsComplex(points=component_points.values, max_edge_length=3.0)
-        simplex_tree = rips_complex.create_simplex_tree(max_dimension=2)
-        persistence = simplex_tree.persistence()
-        
+            if len(component_points) > 0:
+                rips_complex = gd.RipsComplex(points=component_points,sparse=0.1)
+                simplex_tree = rips_complex.create_simplex_tree(max_dimension=3)
+                persistence = simplex_tree.persistence()
 
-        # Generar el diagrama (AxesSubplot)
-        ax = gd.plot_persistence_diagram(persistence)
+                fig, ax = plt.subplots()
+                gd.plot_persistence_diagram(persistence, axes=ax)
+                ax.set_title(f"Persistencia - Componente {i+1} ({len(comp)} nodos)")
+                plt.savefig(f"persistencia_componente_{i+1}.png")
+                plt.close(fig)
 
-        # Obtener la figura asociada al Axes
-        fig = ax.get_figure()
+                print(f"Componente {i+1}: {len(comp)} nodos → {len(component_points)} puntos → Diagrama guardado.")
 
-        # Guardar como PNG
-        fig.savefig(f"diagrama_persistencia{i}.png", dpi=300, bbox_inches='tight')
-
-        # (Opcional) Cierra la figura para liberar memoria
-        plt.close(fig)
