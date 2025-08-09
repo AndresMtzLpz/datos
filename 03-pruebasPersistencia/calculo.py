@@ -138,3 +138,12 @@ if __name__ == "__main__":
 
                 print(f"Componente {i+1}: {len(comp)} nodos → {len(component_points)} puntos → Diagrama guardado.")
 
+                # Convertir a DataFrame
+                df_persistence = pd.DataFrame(
+                    [(dim, birth, death) for dim, (birth, death) in persistence],
+                    columns=["dimension", "birth", "death"]
+                )
+
+                # Guardar a CSV
+                df_persistence.to_csv(f"persistencia_componente_{i+1}.csv", index=False)
+
