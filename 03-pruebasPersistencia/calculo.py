@@ -1,3 +1,39 @@
+import os
+import numpy as np
+import matplotlib.pyplot as plt
+from gudhi.cover_complex import MapperComplex
+import gudhi as gd
+import pandas as pd
+import networkx as nx
+from sklearn.metrics import pairwise_distances
+
+verbose = False
+
+def detectar_prefijo(nombre_archivo, lista_prefijos):
+    for prefijo in lista_prefijos:
+        if nombre_archivo.startswith(prefijo):
+            return prefijo.rstrip("_")
+    return "Otro"
+
+def cargar_y_unir_archivos_por_prefijos(directorio, lista_prefijos):
+    archivos = os.listdir(directorio)
+    archivos_filtrados = [
+        f for f in archivos
+        if any(f.startswith(prefijo) for prefijo in lista_prefijos)
+        and f.endswith('_estandardizado.log')
+    ]
+    if not archivos_filtrados:
+        print("⚠️ No se encontraron archivos con los prefijos indicados.")
+        return pd.DataFrame()
+    dataframes = []
+    for archivo in archivos_filtrados:
+        path = os.path.join(directorio, archivo)
+        df = pd.read_csv(path)
+        df["archivo_origen"] = archivo
+        df["prefijo_origen"] = detectar_prefijo(archivo, lista_prefijos)
+        dataframes.append(df)
+    return pd.concat(dataframes, ignore_index=True)
+
 if __name__ == "__main__":
     prefijos_todos = [
         'MCEFL',  # prefijo0
@@ -84,7 +120,7 @@ if __name__ == "__main__":
                 component_points = df_numerico.values[all_point_indices]
 
                 if len(component_points) > 0:
-                    rips_complex = gd.RipsComplex(points=component_points, sparse=0.1)
+                    rips_complex = gd.RipsComplex(points=component_points, sparse=0.3)
                     simplex_tree = rips_complex.create_simplex_tree(max_dimension=3)
                     persistence = simplex_tree.persistence()
 
@@ -106,3 +142,4 @@ if __name__ == "__main__":
                     )
 
                     print(f"   → {prefijo} comp {i+1}: {len(comp)} nodos → {len(component_points)} puntos → Guardado.")
+
