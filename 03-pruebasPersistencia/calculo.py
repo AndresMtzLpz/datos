@@ -20,7 +20,7 @@ def cargar_y_unir_archivos_por_prefijos(directorio, lista_prefijos):
     archivos_filtrados = [
         f for f in archivos
         if any(f.startswith(prefijo) for prefijo in lista_prefijos)
-        and f.endswith('_estandardizado.log')
+        and f.endswith('.log')
     ]
     if not archivos_filtrados:
         print("⚠️ No se encontraron archivos con los prefijos indicados.")
@@ -56,7 +56,7 @@ if __name__ == "__main__":
     # Prefijos a procesar (excluye prefijo2 y prefijo6)
     prefijos_a_usar = [p for i, p in enumerate(prefijos_todos) if i not in (2, 6)]
 
-    output_directory = "datosEstandarizados3m_10/"  # <-- Carpeta de entrada
+    output_directory = "datosEstandarizados3m_50/"  # <-- Carpeta de entrada
 
     for prefijo in prefijos_a_usar:
         print(f"\n🔹 Procesando prefijo: {prefijo}...")
