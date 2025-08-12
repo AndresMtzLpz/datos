@@ -56,7 +56,7 @@ if __name__ == "__main__":
     # Prefijos a procesar (excluye prefijo2 y prefijo6)
     prefijos_a_usar = [p for i, p in enumerate(prefijos_todos) if i not in (2, 6)]
 
-    output_directory = "datosEstandarizados3m_50/"  # <-- Carpeta de entrada
+    output_directory = "datosEstandarizados3m_20/"  # <-- Carpeta de entrada
 
     for prefijo in prefijos_a_usar:
         print(f"\n🔹 Procesando prefijo: {prefijo}...")
