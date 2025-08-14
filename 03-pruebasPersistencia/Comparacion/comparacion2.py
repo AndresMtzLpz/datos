@@ -1,18 +1,17 @@
 import os
 import pandas as pd
 import gudhi as gd
-from gudhi.wasserstein import wasserstein_distance
 from itertools import product
+from gudhi.wasserstein import wasserstein_distance
 import numpy as np
-from itertools import combinations
 
-# Directorio base
+# 📂 Directorio base
 base_dir = "../"
 
-# 📂 Carpetas de resultados (ordenadas de menor a mayor resolución)
+# 📂 Carpetas de resultados (ordenadas)
 resultados_dirs = [f"resultados3m_{i}" for i in range(10, 110, 10)]
 
-# 📂 Prefijos detectados automáticamente de la primera carpeta
+# 📂 Prefijos detectados automáticamente
 prefijos = sorted(next(os.walk(os.path.join(base_dir, resultados_dirs[0])))[1])
 
 def leer_persistencia_csv(path):
@@ -33,14 +32,13 @@ for prefijo in prefijos:
         archivos_csv = sorted(f for f in os.listdir(ruta_prefijo) if f.endswith(".csv"))
         persistencias_por_dir[carpeta] = [leer_persistencia_csv(os.path.join(ruta_prefijo, f)) for f in archivos_csv]
 
-    # 🔄 Comparar todas las combinaciones de resoluciones para este prefijo
-    for carpeta_a, carpeta_b in combinations(persistencias_por_dir.keys(), 2):
+    # 🔄 Comparar todas las combinaciones (incluyendo misma carpeta)
+    for carpeta_a, carpeta_b in product(persistencias_por_dir.keys(), repeat=2):
         lista_a = persistencias_por_dir[carpeta_a]
         lista_b = persistencias_por_dir[carpeta_b]
 
         for idx_a, diag_a in enumerate(lista_a):
             for idx_b, diag_b in enumerate(lista_b):
-                # Calcular Wasserstein por dimensión
                 for dim in [0, 1, 2]:
                     diag_a_dim = np.array([(birth, death) for d, (birth, death) in diag_a if d == dim])
                     diag_b_dim = np.array([(birth, death) for d, (birth, death) in diag_b if d == dim])
@@ -63,4 +61,5 @@ for prefijo in prefijos:
 df_resultados = pd.DataFrame(resultados_distancias)
 df_resultados.to_csv("distancias_wasserstein_todas.csv", index=False)
 
-print(f"✅ Distancias calculadas y guardadas en distancias_wasserstein_todas.csv")
+print("✅ Distancias calculadas (incluyendo misma resolución) y guardadas en distancias_wasserstein_todas.csv")
+

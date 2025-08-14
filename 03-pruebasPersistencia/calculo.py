@@ -56,12 +56,13 @@ if __name__ == "__main__":
     # Prefijos a procesar (excluye prefijo2 y prefijo6)
     prefijos_a_usar = [p for i, p in enumerate(prefijos_todos) if i not in (2, 6)]
 
-    output_directory = "datosEstandarizados3m_20/"  # <-- Carpeta de entrada
+    output_directory = "datosEstandarizados3m_100/"  # <-- Carpeta de entrada
 
     for prefijo in prefijos_a_usar:
         print(f"\n🔹 Procesando prefijo: {prefijo}...")
 
         # Crear carpeta de salida para este prefijo
+        print("Creacion carpeta")
         carpeta_prefijo = os.path.join("resultados", prefijo)
         os.makedirs(carpeta_prefijo, exist_ok=True)
 
@@ -75,6 +76,7 @@ if __name__ == "__main__":
         df_numerico = df_union.select_dtypes(include='number').dropna()
 
         # Obtener matriz de distancia
+        print("Calculo matriz de distancia")
         D = pairwise_distances(df_numerico.values)
 
         # Establecer cover
