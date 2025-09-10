@@ -6,6 +6,8 @@ import gudhi as gd
 import pandas as pd
 import networkx as nx
 from sklearn.metrics import pairwise_distances
+from sklearn.metrics import pairwise_distances_chunked
+
 
 verbose = False
 
@@ -34,6 +36,14 @@ def cargar_y_unir_archivos_por_prefijos(directorio, lista_prefijos):
         dataframes.append(df)
     return pd.concat(dataframes, ignore_index=True)
 
+def pairwise_distances_blockwise(X, block_size=1000):
+    n = X.shape[0]
+    D = np.zeros((n, n), dtype=np.float32)  # Usa float32 para ahorrar memoria
+    for i in range(0, n, block_size):
+        i_end = min(i + block_size, n)
+        D[i:i_end, :] = pairwise_distances(X[i:i_end], X, n_jobs=-1)
+    return D
+
 if __name__ == "__main__":
     prefijos_todos = [
         'MCEFL',  # prefijo0
@@ -54,9 +64,9 @@ if __name__ == "__main__":
     ]
 
     # Prefijos a procesar (excluye prefijo2 y prefijo6)
-    prefijos_a_usar = [p for i, p in enumerate(prefijos_todos) if i not in (2,6)]
+    prefijos_a_usar = [p for i, p in enumerate(prefijos_todos) if i not in (0,2,6)]
 
-    output_directory = "datosEstandarizados5m_10/"  # <-- Carpeta de entrada
+    output_directory = "datosEstandarizados10m_100/"  # <-- Carpeta de entrada
 
     for prefijo in prefijos_a_usar:
         print(f"\n🔹 Procesando prefijo: {prefijo}...")
@@ -77,7 +87,12 @@ if __name__ == "__main__":
 
         # Obtener matriz de distancia
         print("Calculo matriz de distancia")
-        D = pairwise_distances(df_numerico.values)
+        D = pairwise_distances(df_numerico.values.astype(np.float32))
+        ##### chunks = pairwise_distances_chunked(df_numerico.values, working_memory=64)  # en MB ##32768
+        ##### D = np.vstack([chunk for chunk in chunks])
+        #X = df_numerico.values.astype(np.float32)  # Asegura tipo float32
+        #D = pairwise_distances_blockwise(X, block_size=1000)
+        print(len(D))
 
         # Establecer cover
         cover_complex = MapperComplex(
@@ -90,8 +105,10 @@ if __name__ == "__main__":
         _ = cover_complex.fit(D)
 
         # Guardar grafo PNG
+        print("Generando grafo")
         G = cover_complex.get_networkx()
         plt.figure()
+        print("Dibujando")
         nx.draw(
             G,
             pos=nx.kamada_kawai_layout(G),
@@ -111,6 +128,7 @@ if __name__ == "__main__":
 
         # Calcular persistencia para componentes conexas > 2 nodos
         componentes = list(nx.connected_components(G))
+        print("Calculo componentes conexas")
         for i, comp in enumerate(componentes):
             if len(comp) > 4:
                 all_point_indices = []
@@ -122,6 +140,7 @@ if __name__ == "__main__":
                 component_points = df_numerico.values[all_point_indices]
 
                 if len(component_points) > 0:
+                    print(len(component_points))
                     rips_complex = gd.RipsComplex(points=component_points, sparse=0.5)
                     simplex_tree = rips_complex.create_simplex_tree(max_dimension=3)
                     persistence = simplex_tree.persistence()

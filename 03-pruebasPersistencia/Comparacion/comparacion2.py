@@ -6,10 +6,10 @@ from gudhi.wasserstein import wasserstein_distance
 import numpy as np
 
 # 📂 Directorio base
-base_dir = "../"
+base_dir = "../5m/"
 
 # 📂 Carpetas de resultados (ordenadas)
-resultados_dirs = [f"resultados3m_{i}" for i in range(10, 110, 10)]
+resultados_dirs = [f"resultados5m_{i}" for i in range(10, 110, 10)]
 
 # 📂 Prefijos detectados automáticamente
 prefijos = sorted(next(os.walk(os.path.join(base_dir, resultados_dirs[0])))[1])
@@ -59,7 +59,7 @@ for prefijo in prefijos:
 
 # 💾 Guardar resultados
 df_resultados = pd.DataFrame(resultados_distancias)
-df_resultados.to_csv("distancias_wasserstein_todas.csv", index=False)
+df_resultados.to_csv("distancias_wasserstein_todas_5m.csv", index=False)
 
 print("✅ Distancias calculadas (incluyendo misma resolución) y guardadas en distancias_wasserstein_todas.csv")
 
