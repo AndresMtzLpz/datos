@@ -99,17 +99,17 @@ if __name__ == "__main__":
     ]
 
     # Prefijos a procesar (excluye 2 y 6)
-    prefijos_a_usar = [p for i, p in enumerate(prefijos_todos) if i not in (2, 6)]
+    prefijos_a_usar = [p for i, p in enumerate(prefijos_todos) if i not in (2,6)]
 
     # Procesar para 10, 20, ..., 100
-    for n in range(10, 110, 10):
+    for n in range(80, 110, 10):
         print(f"\n============================")
         print(f"  🚀 Procesando nivel {n}")
         print(f"============================")
 
         carpeta_3m = f"3m/datosEstandarizados3m_{n}/"
-        carpeta_5m = f"5m/datosEstandarizados5m_{n}/"
-        carpeta_resultados = f"resultados5m_{n}/"
+        carpeta_5m = f"10m/datosEstandarizados10m_{n}/"
+        carpeta_resultados = f"resultados10m_{n}/"
         os.makedirs(carpeta_resultados, exist_ok=True)
 
         # calcular límites de líneas por prefijo con base en 3m
@@ -181,7 +181,7 @@ if __name__ == "__main__":
                     component_points = df_numerico.values[all_point_indices]
 
                     if len(component_points) > 0:
-                        rips_complex = gd.RipsComplex(points=component_points, sparse=0.5)
+                        rips_complex = gd.RipsComplex(points=component_points, sparse=0.7)
                         simplex_tree = rips_complex.create_simplex_tree(max_dimension=3)
                         persistence = simplex_tree.persistence()
 

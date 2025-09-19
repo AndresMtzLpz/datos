@@ -6,8 +6,8 @@ from gudhi.wasserstein import wasserstein_distance
 import csv
 import numpy as np
 
-base_dir = "../5m2/"
-resultados_dirs = [f"resultados5m_{i}" for i in range(10, 110, 10)]
+base_dir = "../10m1/"
+resultados_dirs = [f"resultados10m1_{i}" for i in range(10, 110, 10)]
 prefijos = sorted(next(os.walk(os.path.join(base_dir, resultados_dirs[0])))[1])
 
 def leer_persistencia_csv(path):
@@ -19,7 +19,7 @@ def leer_persistencia_csv(path):
 
 for prefijo in prefijos:
     print(f"🔄 Procesando prefijo: {prefijo}")
-    output_file = f"distancias_wasserstein_{prefijo}.csv"
+    output_file = f"distancias_wasserstein_10m1_{prefijo}.csv"
     with open(output_file, mode="w", newline="") as f_out:
         writer = csv.DictWriter(f_out, fieldnames=[
             "prefijo", "carpeta_a", "archivo_a", "carpeta_b", "archivo_b", "dimension", "distancia"
