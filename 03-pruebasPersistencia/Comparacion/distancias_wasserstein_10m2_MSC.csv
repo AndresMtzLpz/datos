@@ -1,0 +1,10 @@
+prefijo,carpeta_a,archivo_a,carpeta_b,archivo_b,dimension,distancia
+MSC,resultados10m2_50,persistencia_MSC_componente_1.csv,resultados10m2_50,persistencia_MSC_componente_1.csv,0,0.0
+MSC,resultados10m2_50,persistencia_MSC_componente_1.csv,resultados10m2_50,persistencia_MSC_componente_1.csv,1,0.0
+MSC,resultados10m2_50,persistencia_MSC_componente_1.csv,resultados10m2_50,persistencia_MSC_componente_1.csv,2,0.0
+MSC,resultados10m2_50,persistencia_MSC_componente_1.csv,resultados10m2_60,persistencia_MSC_componente_6.csv,0,0.008228733195334502
+MSC,resultados10m2_50,persistencia_MSC_componente_1.csv,resultados10m2_60,persistencia_MSC_componente_6.csv,1,0.0004194639436232868
+MSC,resultados10m2_50,persistencia_MSC_componente_1.csv,resultados10m2_60,persistencia_MSC_componente_6.csv,2,0.00013397761006974263
+MSC,resultados10m2_60,persistencia_MSC_componente_6.csv,resultados10m2_60,persistencia_MSC_componente_6.csv,0,0.0
+MSC,resultados10m2_60,persistencia_MSC_componente_6.csv,resultados10m2_60,persistencia_MSC_componente_6.csv,1,0.0
+MSC,resultados10m2_60,persistencia_MSC_componente_6.csv,resultados10m2_60,persistencia_MSC_componente_6.csv,2,0.0

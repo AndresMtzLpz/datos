@@ -1,0 +1,118 @@
+nohup: ignoring input
+🔄 Procesando prefijo: MCEFL
+✅ Prefijo MCEFL procesado y guardado en distancias_wasserstein_10m3_MCEFL.csv
+🔄 Procesando prefijo: MIA
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+✅ Prefijo MIA procesado y guardado en distancias_wasserstein_10m3_MIA.csv
+🔄 Procesando prefijo: MRS
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
