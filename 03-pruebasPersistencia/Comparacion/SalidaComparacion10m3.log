@@ -116,3 +116,116 @@ nohup: ignoring input
   check_result(result_code)
 /home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
   check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+✅ Prefijo MRS procesado y guardado en distancias_wasserstein_10m3_MRS.csv
+🔄 Procesando prefijo: MSC
+✅ Prefijo MSC procesado y guardado en distancias_wasserstein_10m3_MSC.csv
+🔄 Procesando prefijo: MSFC
+✅ Prefijo MSFC procesado y guardado en distancias_wasserstein_10m3_MSFC.csv
+🔄 Procesando prefijo: MVIV
+✅ Prefijo MVIV procesado y guardado en distancias_wasserstein_10m3_MVIV.csv
+🔄 Procesando prefijo: WIDS
+✅ Prefijo WIDS procesado y guardado en distancias_wasserstein_10m3_WIDS.csv
+🔄 Procesando prefijo: WIDSL
+✅ Prefijo WIDSL procesado y guardado en distancias_wasserstein_10m3_WIDSL.csv
+🔄 Procesando prefijo: WLEC
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+/home/andres/venv/lib/python3.9/site-packages/ot/lp/__init__.py:630: UserWarning: numItermax reached before optimality. Try to increase numItermax.
+  check_result(result_code)
+✅ Prefijo WLEC procesado y guardado en distancias_wasserstein_10m3_WLEC.csv
+🔄 Procesando prefijo: WSUT
+✅ Prefijo WSUT procesado y guardado en distancias_wasserstein_10m3_WSUT.csv
+🔄 Procesando prefijo: WVAE
+✅ Prefijo WVAE procesado y guardado en distancias_wasserstein_10m3_WVAE.csv
+🔄 Procesando prefijo: WVAL
+✅ Prefijo WVAL procesado y guardado en distancias_wasserstein_10m3_WVAL.csv
+🔄 Procesando prefijo: WVIV
+✅ Prefijo WVIV procesado y guardado en distancias_wasserstein_10m3_WVIV.csv
