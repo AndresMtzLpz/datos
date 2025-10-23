@@ -80,7 +80,7 @@ def cargar_y_unir_archivos_por_prefijos_limitado_random(directorio, lista_prefij
 # ---------------------------
 if __name__ == "__main__":
     prefijos_todos = [
-        'MCEFL',  # prefijo0
+        #'MCEFL',  # prefijo0
         #'MIA',    # prefijo1
         #'MPFC',   # prefijo2 (excluir)
         #'MRS',    # prefijo3
@@ -90,7 +90,7 @@ if __name__ == "__main__":
         #'MVIV',   # prefijo7
         #'WIDS',   # prefijo8
         #'WIDSL',  # prefijo9
-        #'WLEC',   # prefijo10
+        'WLEC',   # prefijo10
         #'WSUT',   # prefijo11
         #'WVAE',   # prefijo12
         #'WVAL',   # prefijo13
@@ -101,7 +101,7 @@ if __name__ == "__main__":
     prefijos_a_usar = [p for i, p in enumerate(prefijos_todos) if i not in (2, 6)]
 
     # Repetir 4 veces
-    for iteracion in range(1, 3):
+    for iteracion in range(1, 4):
         print(f"\n============================")
         print(f"  🔁 Iteración {iteracion}")
         print(f"============================")
@@ -111,8 +111,8 @@ if __name__ == "__main__":
             print(f"\n📂 Nivel {n}")
 
             carpeta_3m = f"3m/datosEstandarizados3m_{n}/"
-            carpeta_5m = f"4m/datosEstandarizados4m_{n}/"
-            carpeta_resultados = f"resultados4m{iteracion}_{n}_2/"
+            carpeta_5m = f"10m/datosEstandarizados10m_{n}/"
+            carpeta_resultados = f"resultados10mt{iteracion}_{n}/"
             os.makedirs(carpeta_resultados, exist_ok=True)
 
             # calcular límites de líneas por prefijo con base en 3m
