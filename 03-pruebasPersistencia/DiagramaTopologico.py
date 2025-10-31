@@ -126,14 +126,14 @@ if __name__ == "__main__":
 
         # Paso 4: Crear Mapper y aplicar proyección (PCA)
         mapper = KeplerMapper(verbose=1)
-        lens = mapper.fit_transform(X, projection=PCA(n_components=5))
+        lens = mapper.fit_transform(X, projection=PCA(n_components=3))
 
         # Paso 5: Crear el grafo topológico
         graph = mapper.map(
             lens,
             X,
-            cover=Cover(n_cubes=50, perc_overlap=0.2),
-            clusterer=DBSCAN(eps=2, min_samples=10)
+            cover=Cover(n_cubes=43, perc_overlap=0.3),
+            clusterer=DBSCAN(eps=3, min_samples=30)
         )
 
         # Paso 6: Visualizar el grafo con detalles por prefijo
