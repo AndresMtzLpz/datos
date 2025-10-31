@@ -132,7 +132,7 @@ if __name__ == "__main__":
         graph = mapper.map(
             lens,
             X,
-            cover=Cover(n_cubes=23, perc_overlap=0.02),
+            cover=Cover(n_cubes=23, perc_overlap=0.5),
             clusterer=DBSCAN(eps=3, min_samples=80)
         )
 
