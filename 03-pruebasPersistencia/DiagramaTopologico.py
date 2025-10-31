@@ -132,8 +132,8 @@ if __name__ == "__main__":
         graph = mapper.map(
             lens,
             X,
-            cover=Cover(n_cubes=48, perc_overlap=0.2),
-            clusterer=DBSCAN(eps=0.5, min_samples=10)
+            cover=Cover(n_cubes=23, perc_overlap=0.1),
+            clusterer=DBSCAN(eps=0.5, min_samples=5)
         )
 
         # Paso 6: Visualizar el grafo con detalles por prefijo
