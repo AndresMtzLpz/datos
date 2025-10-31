@@ -103,8 +103,8 @@ if __name__ == "__main__":
     prefijos_a_usar = [p for i, p in enumerate(prefijos_todos) if i not in (2, 6)]
 
     # Rutas a carpetas con logs (ajusta las rutas a tu entorno)
-    ruta_3m = "3m/datosEstandarizados3m_100"
-    ruta_5m = "4m/datosEstandarizados4m_100"
+    ruta_3m = "3m/datosEstandarizados3m_50"
+    ruta_5m = "4m/datosEstandarizados4m_50"
 
     # Paso 1: Obtener límites por prefijo desde 3m
     limites_por_prefijo = contar_lineas_3m(ruta_3m, prefijos_a_usar)
@@ -132,8 +132,8 @@ if __name__ == "__main__":
         graph = mapper.map(
             lens,
             X,
-            cover=Cover(n_cubes=23, perc_overlap=0),
-            clusterer=DBSCAN(eps=3, min_samples=30)
+            cover=Cover(n_cubes=23, perc_overlap=0.2),
+            clusterer=DBSCAN(eps=0.5, min_samples=10)
         )
 
         # Paso 6: Visualizar el grafo con detalles por prefijo

@@ -1,0 +1,21 @@
+nohup: ignoring input
+KeplerMapper(verbose=1)
+..Composing projection pipeline of length 1:
+	Projections: PCA(n_components=3)
+	Distance matrices: False
+	Scalers: MinMaxScaler()
+..Projecting on data shaped (154469, 17)
+
+..Projecting data using: 
+	PCA(n_components=3)
+
+
+..Scaling with: MinMaxScaler()
+
+Mapping on data shaped (154469, 17) using lens shaped (154469, 3)
+
+Creating 12167 hypercubes.
+
+Created 951 edges and 371 nodes in 0:01:19.670636.
+Wrote visualization to: grafo_mapper.html
+✅ Grafo generado: grafo_mapper.html
