@@ -1,0 +1,45 @@
+nohup: ignoring input
+['MCEFL', 'MVIV', 'WVAL', 'WVIV']
+
+============================
+  🔁 Iteración 1
+============================
+
+📂 Nivel 10
+   🔹 Procesando prefijo: MCEFL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados10mt1_10/MCEFL/mapper_MCEFL.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: MVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados10mt1_10/MVIV/mapper_MVIV.html' is generated. You can now use your favorite web browser to visualize it.
+/home/andres/venv/lib/python3.9/site-packages/gudhi/persistence_graphical_tools.py:129: UserWarning: usetex mode requires TeX.
+  warnings.warn("usetex mode requires TeX.")
+      → MVIV comp 1: 5 nodos → 60 puntos → Guardado.
+   🔹 Procesando prefijo: WVAL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados10mt1_10/WVAL/mapper_WVAL.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: WVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados10mt1_10/WVIV/mapper_WVIV.html' is generated. You can now use your favorite web browser to visualize it.
+
+📂 Nivel 20
+   🔹 Procesando prefijo: MCEFL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados10mt1_20/MCEFL/mapper_MCEFL.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: MVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados10mt1_20/MVIV/mapper_MVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → MVIV comp 5: 5 nodos → 284 puntos → Guardado.
+   🔹 Procesando prefijo: WVAL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados10mt1_20/WVAL/mapper_WVAL.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: WVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex

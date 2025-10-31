@@ -80,28 +80,29 @@ def cargar_y_unir_archivos_por_prefijos_limitado_random(directorio, lista_prefij
 # ---------------------------
 if __name__ == "__main__":
     prefijos_todos = [
-        #'MCEFL',  # prefijo0
-        #'MIA',    # prefijo1
-        #'MPFC',   # prefijo2 (excluir)
-        #'MRS',    # prefijo3
-        #'MSC',    # prefijo4
-        #'MSFC',   # prefijo5
-        #'MVIE',   # prefijo6 (excluir)
-        #'MVIV',   # prefijo7
-        #'WIDS',   # prefijo8
-        #'WIDSL',  # prefijo9
+        'MCEFL',  # prefijo0
+        'MIA',    # prefijo1
+        'MPFC',   # prefijo2 (excluir)
+        'MRS',    # prefijo3
+        'MSC',    # prefijo4
+        'MSFC',   # prefijo5
+        'MVIE',   # prefijo6 (excluir)
+        'MVIV',   # prefijo7
+        'WIDS',   # prefijo8
+        'WIDSL',  # prefijo9
         'WLEC',   # prefijo10
-        #'WSUT',   # prefijo11
-        #'WVAE',   # prefijo12
-        #'WVAL',   # prefijo13
-        #'WVIV'    # prefijo14
+        'WSUT',   # prefijo11
+        'WVAE',   # prefijo12
+        'WVAL',   # prefijo13
+        'WVIV'    # prefijo14
     ]
 
     # Prefijos a procesar (excluye 2 y 6)
-    prefijos_a_usar = [p for i, p in enumerate(prefijos_todos) if i not in (2, 6)]
+    prefijos_a_usar = [p for i, p in enumerate(prefijos_todos) if i not in (1,2,3,4,5,6,8,9,11,12)]
+    print(prefijos_a_usar)
 
     # Repetir 4 veces
-    for iteracion in range(1, 4):
+    for iteracion in range(3, 5):
         print(f"\n============================")
         print(f"  🔁 Iteración {iteracion}")
         print(f"============================")
