@@ -133,7 +133,7 @@ if __name__ == "__main__":
             lens,
             X,
             cover=Cover(n_cubes=50, perc_overlap=0.01),
-            clusterer=DBSCAN(eps=0.3, min_samples=80)
+            clusterer=DBSCAN(eps=0.1, min_samples=10)
         )
 
         # Paso 6: Visualizar el grafo con detalles por prefijo
