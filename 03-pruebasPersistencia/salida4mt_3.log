@@ -1,0 +1,81 @@
+nohup: ignoring input
+['MCEFL', 'MIA', 'MRS', 'MSC', 'MSFC', 'MVIV', 'WIDS', 'WIDSL', 'WLEC', 'WSUT', 'WVAE', 'WVAL', 'WVIV']
+
+============================
+  🔁 Iteración 1
+============================
+
+📂 Nivel 10
+   🔹 Procesando prefijo: MCEFL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt1_10/MCEFL/mapper_MCEFL.html' is generated. You can now use your favorite web browser to visualize it.
+/home/andres/venv/lib/python3.9/site-packages/gudhi/persistence_graphical_tools.py:129: UserWarning: usetex mode requires TeX.
+  warnings.warn("usetex mode requires TeX.")
+      → MCEFL comp 1: 13 nodos → 551 puntos → Guardado.
+      → MCEFL comp 7: 6 nodos → 90 puntos → Guardado.
+   🔹 Procesando prefijo: MIA
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt1_10/MIA/mapper_MIA.html' is generated. You can now use your favorite web browser to visualize it.
+      → MIA comp 21: 8 nodos → 874 puntos → Guardado.
+      → MIA comp 23: 5 nodos → 557 puntos → Guardado.
+   🔹 Procesando prefijo: MRS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt1_10/MRS/mapper_MRS.html' is generated. You can now use your favorite web browser to visualize it.
+      → MRS comp 3: 9 nodos → 601 puntos → Guardado.
+      → MRS comp 11: 7 nodos → 359 puntos → Guardado.
+   🔹 Procesando prefijo: MSC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt1_10/MSC/mapper_MSC.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: MSFC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt1_10/MSFC/mapper_MSFC.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: MVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt1_10/MVIV/mapper_MVIV.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: WIDS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt1_10/WIDS/mapper_WIDS.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: WIDSL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt1_10/WIDSL/mapper_WIDSL.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: WLEC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt1_10/WLEC/mapper_WLEC.html' is generated. You can now use your favorite web browser to visualize it.
+      → WLEC comp 1: 15 nodos → 4186 puntos → Guardado.
+   🔹 Procesando prefijo: WSUT
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt1_10/WSUT/mapper_WSUT.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: WVAE
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt1_10/WVAE/mapper_WVAE.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: WVAL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt1_10/WVAL/mapper_WVAL.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: WVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt1_10/WVIV/mapper_WVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVIV comp 1: 6 nodos → 94 puntos → Guardado.
+
+📂 Nivel 20
+   🔹 Procesando prefijo: MCEFL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt1_20/MCEFL/mapper_MCEFL.html' is generated. You can now use your favorite web browser to visualize it.
+      → MCEFL comp 1: 11 nodos → 1175 puntos → Guardado.
+      → MCEFL comp 7: 6 nodos → 235 puntos → Guardado.
+   🔹 Procesando prefijo: MIA
+      → Calculo matriz de distancia
+      → Calculo cover complex

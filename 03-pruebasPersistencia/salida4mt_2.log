@@ -1,0 +1,42 @@
+nohup: ignoring input
+['MCEFL', 'MIA', 'MRS', 'MSC', 'MSFC', 'MVIV', 'WIDS', 'WIDSL', 'WLEC', 'WSUT', 'WVAE', 'WVAL', 'WVIV']
+
+============================
+  🔁 Iteración 1
+============================
+
+📂 Nivel 10
+   🔹 Procesando prefijo: MCEFL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt1_10/MCEFL/mapper_MCEFL.html' is generated. You can now use your favorite web browser to visualize it.
+/home/andres/venv/lib/python3.9/site-packages/gudhi/persistence_graphical_tools.py:129: UserWarning: usetex mode requires TeX.
+  warnings.warn("usetex mode requires TeX.")
+      → MCEFL comp 1: 7 nodos → 289 puntos → Guardado.
+      → MCEFL comp 11: 6 nodos → 90 puntos → Guardado.
+   🔹 Procesando prefijo: MIA
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt1_10/MIA/mapper_MIA.html' is generated. You can now use your favorite web browser to visualize it.
+      → MIA comp 25: 5 nodos → 499 puntos → Guardado.
+      → MIA comp 27: 11 nodos → 874 puntos → Guardado.
+   🔹 Procesando prefijo: MRS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt1_10/MRS/mapper_MRS.html' is generated. You can now use your favorite web browser to visualize it.
+      → MRS comp 6: 9 nodos → 505 puntos → Guardado.
+      → MRS comp 15: 10 nodos → 265 puntos → Guardado.
+   🔹 Procesando prefijo: MSC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+Traceback (most recent call last):
+  File "/home/andres/datos/03-pruebasPersistencia/calculo3_1.py", line 153, in <module>
+    _ = cover_complex.fit(D)
+  File "/home/andres/venv/lib/python3.9/site-packages/gudhi/cover_complex.py", line 400, in fit
+    delta, resolutions = self.get_optimal_parameters_for_agglomerative_clustering(X=X, beta=self.beta, C=self.C, N=self.N)
+  File "/home/andres/venv/lib/python3.9/site-packages/gudhi/cover_complex.py", line 323, in get_optimal_parameters_for_agglomerative_clustering
+    delta = self.estimate_scale(X=X, N=N, C=C, beta=beta)
+  File "/home/andres/venv/lib/python3.9/site-packages/gudhi/cover_complex.py", line 292, in estimate_scale
+    subpop = np.random.choice(num_pts, size=m, replace=False)
+  File "numpy/random/mtrand.pyx", line 1024, in numpy.random.mtrand.RandomState.choice
+ValueError: Cannot take a larger sample than population when 'replace=False'

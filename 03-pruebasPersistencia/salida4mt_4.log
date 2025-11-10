@@ -1,0 +1,1417 @@
+nohup: ignoring input
+['MCEFL', 'MIA', 'MRS', 'MSC', 'MSFC', 'MVIV', 'WIDS', 'WIDSL', 'WLEC', 'WSUT', 'WVAE', 'WVAL', 'WVIV']
+
+============================
+  🔁 Iteración 3
+============================
+
+📂 Nivel 10
+   🔹 Procesando prefijo: MCEFL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_10/MCEFL/mapper_MCEFL.html' is generated. You can now use your favorite web browser to visualize it.
+/home/andres/venv/lib/python3.9/site-packages/gudhi/persistence_graphical_tools.py:129: UserWarning: usetex mode requires TeX.
+  warnings.warn("usetex mode requires TeX.")
+      → MCEFL comp 2: 11 nodos → 454 puntos → Guardado.
+      → MCEFL comp 8: 6 nodos → 98 puntos → Guardado.
+   🔹 Procesando prefijo: MIA
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_10/MIA/mapper_MIA.html' is generated. You can now use your favorite web browser to visualize it.
+      → MIA comp 47: 5 nodos → 516 puntos → Guardado.
+      → MIA comp 49: 11 nodos → 862 puntos → Guardado.
+   🔹 Procesando prefijo: MRS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_10/MRS/mapper_MRS.html' is generated. You can now use your favorite web browser to visualize it.
+      → MRS comp 2: 9 nodos → 276 puntos → Guardado.
+      → MRS comp 14: 9 nodos → 431 puntos → Guardado.
+   🔹 Procesando prefijo: MSC
+⚠️ Prefijo MSC tiene solo 54 filas (< 600), se salta.
+   🔹 Procesando prefijo: MSFC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_10/MSFC/mapper_MSFC.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: MVIV
+⚠️ Prefijo MVIV tiene solo 414 filas (< 600), se salta.
+   🔹 Procesando prefijo: WIDS
+⚠️ Prefijo WIDS tiene solo 393 filas (< 600), se salta.
+   🔹 Procesando prefijo: WIDSL
+⚠️ Prefijo WIDSL tiene solo 144 filas (< 600), se salta.
+   🔹 Procesando prefijo: WLEC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_10/WLEC/mapper_WLEC.html' is generated. You can now use your favorite web browser to visualize it.
+      → WLEC comp 1: 13 nodos → 2122 puntos → Guardado.
+      → WLEC comp 2: 12 nodos → 2073 puntos → Guardado.
+   🔹 Procesando prefijo: WSUT
+⚠️ Prefijo WSUT tiene solo 198 filas (< 600), se salta.
+   🔹 Procesando prefijo: WVAE
+⚠️ Prefijo WVAE tiene solo 486 filas (< 600), se salta.
+   🔹 Procesando prefijo: WVAL
+⚠️ Prefijo WVAL tiene solo 252 filas (< 600), se salta.
+   🔹 Procesando prefijo: WVIV
+⚠️ Prefijo WVIV tiene solo 522 filas (< 600), se salta.
+
+📂 Nivel 20
+   🔹 Procesando prefijo: MCEFL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_20/MCEFL/mapper_MCEFL.html' is generated. You can now use your favorite web browser to visualize it.
+      → MCEFL comp 1: 5 nodos → 470 puntos → Guardado.
+      → MCEFL comp 10: 6 nodos → 235 puntos → Guardado.
+   🔹 Procesando prefijo: MIA
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_20/MIA/mapper_MIA.html' is generated. You can now use your favorite web browser to visualize it.
+      → MIA comp 1: 5 nodos → 518 puntos → Guardado.
+      → MIA comp 2: 6 nodos → 1598 puntos → Guardado.
+      → MIA comp 3: 7 nodos → 3713 puntos → Guardado.
+      → MIA comp 10: 6 nodos → 376 puntos → Guardado.
+      → MIA comp 17: 6 nodos → 517 puntos → Guardado.
+      → MIA comp 18: 11 nodos → 1927 puntos → Guardado.
+      → MIA comp 21: 5 nodos → 423 puntos → Guardado.
+   🔹 Procesando prefijo: MRS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_20/MRS/mapper_MRS.html' is generated. You can now use your favorite web browser to visualize it.
+      → MRS comp 1: 10 nodos → 1316 puntos → Guardado.
+      → MRS comp 15: 8 nodos → 705 puntos → Guardado.
+   🔹 Procesando prefijo: MSC
+⚠️ Prefijo MSC tiene solo 142 filas (< 600), se salta.
+   🔹 Procesando prefijo: MSFC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_20/MSFC/mapper_MSFC.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: MVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_20/MVIV/mapper_MVIV.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: WIDS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_20/WIDS/mapper_WIDS.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: WIDSL
+⚠️ Prefijo WIDSL tiene solo 377 filas (< 600), se salta.
+   🔹 Procesando prefijo: WLEC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_20/WLEC/mapper_WLEC.html' is generated. You can now use your favorite web browser to visualize it.
+      → WLEC comp 1: 13 nodos → 5499 puntos → Guardado.
+      → WLEC comp 2: 12 nodos → 5359 puntos → Guardado.
+   🔹 Procesando prefijo: WSUT
+⚠️ Prefijo WSUT tiene solo 518 filas (< 600), se salta.
+   🔹 Procesando prefijo: WVAE
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_20/WVAE/mapper_WVAE.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: WVAL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_20/WVAL/mapper_WVAL.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVAL comp 1: 5 nodos → 140 puntos → Guardado.
+      → WVAL comp 12: 5 nodos → 185 puntos → Guardado.
+   🔹 Procesando prefijo: WVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_20/WVIV/mapper_WVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVIV comp 5: 6 nodos → 233 puntos → Guardado.
+
+📂 Nivel 30
+   🔹 Procesando prefijo: MCEFL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_30/MCEFL/mapper_MCEFL.html' is generated. You can now use your favorite web browser to visualize it.
+      → MCEFL comp 1: 6 nodos → 710 puntos → Guardado.
+      → MCEFL comp 3: 5 nodos → 355 puntos → Guardado.
+      → MCEFL comp 10: 6 nodos → 355 puntos → Guardado.
+   🔹 Procesando prefijo: MIA
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_30/MIA/mapper_MIA.html' is generated. You can now use your favorite web browser to visualize it.
+      → MIA comp 1: 5 nodos → 782 puntos → Guardado.
+      → MIA comp 2: 5 nodos → 852 puntos → Guardado.
+      → MIA comp 3: 30 nodos → 14839 puntos → Guardado.
+      → MIA comp 9: 9 nodos → 2911 puntos → Guardado.
+   🔹 Procesando prefijo: MRS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_30/MRS/mapper_MRS.html' is generated. You can now use your favorite web browser to visualize it.
+      → MRS comp 1: 10 nodos → 1988 puntos → Guardado.
+      → MRS comp 14: 8 nodos → 1065 puntos → Guardado.
+   🔹 Procesando prefijo: MSC
+⚠️ Prefijo MSC tiene solo 214 filas (< 600), se salta.
+   🔹 Procesando prefijo: MSFC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_30/MSFC/mapper_MSFC.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: MVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_30/MVIV/mapper_MVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → MVIV comp 11: 5 nodos → 213 puntos → Guardado.
+      → MVIV comp 13: 5 nodos → 283 puntos → Guardado.
+   🔹 Procesando prefijo: WIDS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_30/WIDS/mapper_WIDS.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: WIDSL
+⚠️ Prefijo WIDSL tiene solo 569 filas (< 600), se salta.
+   🔹 Procesando prefijo: WLEC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_30/WLEC/mapper_WLEC.html' is generated. You can now use your favorite web browser to visualize it.
+      → WLEC comp 1: 15 nodos → 16402 puntos → Guardado.
+   🔹 Procesando prefijo: WSUT
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_30/WSUT/mapper_WSUT.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: WVAE
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_30/WVAE/mapper_WVAE.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: WVAL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_30/WVAL/mapper_WVAL.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVAL comp 1: 5 nodos → 212 puntos → Guardado.
+      → WVAL comp 11: 6 nodos → 281 puntos → Guardado.
+   🔹 Procesando prefijo: WVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_30/WVIV/mapper_WVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVIV comp 16: 6 nodos → 355 puntos → Guardado.
+
+📂 Nivel 40
+   🔹 Procesando prefijo: MCEFL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_40/MCEFL/mapper_MCEFL.html' is generated. You can now use your favorite web browser to visualize it.
+      → MCEFL comp 1: 6 nodos → 950 puntos → Guardado.
+      → MCEFL comp 3: 5 nodos → 475 puntos → Guardado.
+      → MCEFL comp 10: 6 nodos → 475 puntos → Guardado.
+   🔹 Procesando prefijo: MIA
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_40/MIA/mapper_MIA.html' is generated. You can now use your favorite web browser to visualize it.
+      → MIA comp 1: 23 nodos → 26697 puntos → Guardado.
+   🔹 Procesando prefijo: MRS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_40/MRS/mapper_MRS.html' is generated. You can now use your favorite web browser to visualize it.
+      → MRS comp 1: 10 nodos → 2850 puntos → Guardado.
+      → MRS comp 13: 8 nodos → 1425 puntos → Guardado.
+   🔹 Procesando prefijo: MSC
+⚠️ Prefijo MSC tiene solo 286 filas (< 600), se salta.
+   🔹 Procesando prefijo: MSFC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_40/MSFC/mapper_MSFC.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: MVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_40/MVIV/mapper_MVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → MVIV comp 11: 5 nodos → 285 puntos → Guardado.
+      → MVIV comp 12: 7 nodos → 475 puntos → Guardado.
+   🔹 Procesando prefijo: WIDS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_40/WIDS/mapper_WIDS.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: WIDSL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_40/WIDSL/mapper_WIDSL.html' is generated. You can now use your favorite web browser to visualize it.
+      → WIDSL comp 2: 5 nodos → 380 puntos → Guardado.
+   🔹 Procesando prefijo: WLEC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_40/WLEC/mapper_WLEC.html' is generated. You can now use your favorite web browser to visualize it.
+      → WLEC comp 1: 11 nodos → 21851 puntos → Guardado.
+   🔹 Procesando prefijo: WSUT
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_40/WSUT/mapper_WSUT.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: WVAE
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_40/WVAE/mapper_WVAE.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVAE comp 9: 5 nodos → 380 puntos → Guardado.
+   🔹 Procesando prefijo: WVAL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_40/WVAL/mapper_WVAL.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVAL comp 1: 6 nodos → 284 puntos → Guardado.
+      → WVAL comp 11: 6 nodos → 377 puntos → Guardado.
+   🔹 Procesando prefijo: WVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_40/WVIV/mapper_WVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVIV comp 6: 6 nodos → 475 puntos → Guardado.
+
+📂 Nivel 50
+   🔹 Procesando prefijo: MCEFL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_50/MCEFL/mapper_MCEFL.html' is generated. You can now use your favorite web browser to visualize it.
+      → MCEFL comp 1: 43 nodos → 7643 puntos → Guardado.
+      → MCEFL comp 2: 5 nodos → 371 puntos → Guardado.
+      → MCEFL comp 7: 5 nodos → 131 puntos → Guardado.
+      → MCEFL comp 8: 6 nodos → 935 puntos → Guardado.
+      → MCEFL comp 10: 6 nodos → 370 puntos → Guardado.
+   🔹 Procesando prefijo: MIA
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_50/MIA/mapper_MIA.html' is generated. You can now use your favorite web browser to visualize it.
+      → MIA comp 1: 21 nodos → 51015 puntos → Guardado.
+   🔹 Procesando prefijo: MRS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_50/MRS/mapper_MRS.html' is generated. You can now use your favorite web browser to visualize it.
+      → MRS comp 1: 39 nodos → 17604 puntos → Guardado.
+      → MRS comp 3: 12 nodos → 591 puntos → Guardado.
+      → MRS comp 4: 5 nodos → 393 puntos → Guardado.
+   🔹 Procesando prefijo: MSC
+⚠️ Prefijo MSC tiene solo 535 filas (< 600), se salta.
+   🔹 Procesando prefijo: MSFC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_50/MSFC/mapper_MSFC.html' is generated. You can now use your favorite web browser to visualize it.
+      → MSFC comp 1: 20 nodos → 3724 puntos → Guardado.
+      → MSFC comp 2: 22 nodos → 3752 puntos → Guardado.
+   🔹 Procesando prefijo: MVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_50/MVIV/mapper_MVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → MVIV comp 3: 29 nodos → 3407 puntos → Guardado.
+      → MVIV comp 6: 6 nodos → 31 puntos → Guardado.
+   🔹 Procesando prefijo: WIDS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_50/WIDS/mapper_WIDS.html' is generated. You can now use your favorite web browser to visualize it.
+      → WIDS comp 1: 10 nodos → 2039 puntos → Guardado.
+      → WIDS comp 2: 14 nodos → 209 puntos → Guardado.
+   🔹 Procesando prefijo: WIDSL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_50/WIDSL/mapper_WIDSL.html' is generated. You can now use your favorite web browser to visualize it.
+      → WIDSL comp 5: 5 nodos → 38 puntos → Guardado.
+   🔹 Procesando prefijo: WLEC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_50/WLEC/mapper_WLEC.html' is generated. You can now use your favorite web browser to visualize it.
+      → WLEC comp 1: 14 nodos → 42092 puntos → Guardado.
+   🔹 Procesando prefijo: WSUT
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_50/WSUT/mapper_WSUT.html' is generated. You can now use your favorite web browser to visualize it.
+      → WSUT comp 5: 5 nodos → 37 puntos → Guardado.
+   🔹 Procesando prefijo: WVAE
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_50/WVAE/mapper_WVAE.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVAE comp 1: 27 nodos → 3192 puntos → Guardado.
+      → WVAE comp 5: 6 nodos → 833 puntos → Guardado.
+      → WVAE comp 6: 6 nodos → 23 puntos → Guardado.
+      → WVAE comp 7: 7 nodos → 33 puntos → Guardado.
+   🔹 Procesando prefijo: WVAL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_50/WVAL/mapper_WVAL.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVAL comp 3: 14 nodos → 1675 puntos → Guardado.
+      → WVAL comp 6: 15 nodos → 124 puntos → Guardado.
+      → WVAL comp 8: 6 nodos → 11 puntos → Guardado.
+   🔹 Procesando prefijo: WVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_50/WVIV/mapper_WVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVIV comp 1: 32 nodos → 4970 puntos → Guardado.
+
+📂 Nivel 60
+   🔹 Procesando prefijo: MCEFL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_60/MCEFL/mapper_MCEFL.html' is generated. You can now use your favorite web browser to visualize it.
+      → MCEFL comp 1: 21 nodos → 3718 puntos → Guardado.
+      → MCEFL comp 3: 8 nodos → 714 puntos → Guardado.
+      → MCEFL comp 6: 12 nodos → 1010 puntos → Guardado.
+      → MCEFL comp 10: 6 nodos → 752 puntos → Guardado.
+      → MCEFL comp 13: 7 nodos → 557 puntos → Guardado.
+      → MCEFL comp 17: 7 nodos → 302 puntos → Guardado.
+   🔹 Procesando prefijo: MIA
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_60/MIA/mapper_MIA.html' is generated. You can now use your favorite web browser to visualize it.
+      → MIA comp 1: 30 nodos → 40197 puntos → Guardado.
+   🔹 Procesando prefijo: MRS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_60/MRS/mapper_MRS.html' is generated. You can now use your favorite web browser to visualize it.
+      → MRS comp 1: 39 nodos → 13784 puntos → Guardado.
+      → MRS comp 3: 12 nodos → 514 puntos → Guardado.
+      → MRS comp 4: 11 nodos → 1184 puntos → Guardado.
+   🔹 Procesando prefijo: MSC
+⚠️ Prefijo MSC tiene solo 430 filas (< 600), se salta.
+   🔹 Procesando prefijo: MSFC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_60/MSFC/mapper_MSFC.html' is generated. You can now use your favorite web browser to visualize it.
+      → MSFC comp 1: 18 nodos → 2975 puntos → Guardado.
+      → MSFC comp 2: 19 nodos → 2500 puntos → Guardado.
+   🔹 Procesando prefijo: MVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_60/MVIV/mapper_MVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → MVIV comp 3: 6 nodos → 42 puntos → Guardado.
+      → MVIV comp 4: 34 nodos → 2740 puntos → Guardado.
+   🔹 Procesando prefijo: WIDS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_60/WIDS/mapper_WIDS.html' is generated. You can now use your favorite web browser to visualize it.
+      → WIDS comp 2: 10 nodos → 1182 puntos → Guardado.
+      → WIDS comp 4: 14 nodos → 210 puntos → Guardado.
+   🔹 Procesando prefijo: WIDSL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_60/WIDSL/mapper_WIDSL.html' is generated. You can now use your favorite web browser to visualize it.
+      → WIDSL comp 1: 8 nodos → 57 puntos → Guardado.
+   🔹 Procesando prefijo: WLEC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_60/WLEC/mapper_WLEC.html' is generated. You can now use your favorite web browser to visualize it.
+      → WLEC comp 1: 21 nodos → 33412 puntos → Guardado.
+   🔹 Procesando prefijo: WSUT
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_60/WSUT/mapper_WSUT.html' is generated. You can now use your favorite web browser to visualize it.
+      → WSUT comp 3: 7 nodos → 65 puntos → Guardado.
+      → WSUT comp 4: 6 nodos → 36 puntos → Guardado.
+   🔹 Procesando prefijo: WVAE
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_60/WVAE/mapper_WVAE.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVAE comp 1: 27 nodos → 2578 puntos → Guardado.
+      → WVAE comp 2: 9 nodos → 72 puntos → Guardado.
+      → WVAE comp 7: 5 nodos → 30 puntos → Guardado.
+      → WVAE comp 8: 6 nodos → 640 puntos → Guardado.
+   🔹 Procesando prefijo: WVAL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_60/WVAL/mapper_WVAL.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVAL comp 1: 21 nodos → 1785 puntos → Guardado.
+      → WVAL comp 3: 18 nodos → 205 puntos → Guardado.
+   🔹 Procesando prefijo: WVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_60/WVIV/mapper_WVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVIV comp 1: 36 nodos → 3860 puntos → Guardado.
+
+📂 Nivel 70
+   🔹 Procesando prefijo: MCEFL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_70/MCEFL/mapper_MCEFL.html' is generated. You can now use your favorite web browser to visualize it.
+      → MCEFL comp 1: 22 nodos → 4342 puntos → Guardado.
+      → MCEFL comp 3: 8 nodos → 834 puntos → Guardado.
+      → MCEFL comp 6: 12 nodos → 1178 puntos → Guardado.
+      → MCEFL comp 11: 6 nodos → 872 puntos → Guardado.
+      → MCEFL comp 13: 7 nodos → 653 puntos → Guardado.
+      → MCEFL comp 18: 6 nodos → 343 puntos → Guardado.
+   🔹 Procesando prefijo: MIA
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_70/MIA/mapper_MIA.html' is generated. You can now use your favorite web browser to visualize it.
+      → MIA comp 1: 22 nodos → 47072 puntos → Guardado.
+   🔹 Procesando prefijo: MRS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_70/MRS/mapper_MRS.html' is generated. You can now use your favorite web browser to visualize it.
+      → MRS comp 1: 38 nodos → 16088 puntos → Guardado.
+      → MRS comp 3: 22 nodos → 1986 puntos → Guardado.
+   🔹 Procesando prefijo: MSC
+⚠️ Prefijo MSC tiene solo 502 filas (< 600), se salta.
+   🔹 Procesando prefijo: MSFC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_70/MSFC/mapper_MSFC.html' is generated. You can now use your favorite web browser to visualize it.
+      → MSFC comp 1: 18 nodos → 3479 puntos → Guardado.
+      → MSFC comp 2: 19 nodos → 2908 puntos → Guardado.
+   🔹 Procesando prefijo: MVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_70/MVIV/mapper_MVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → MVIV comp 3: 6 nodos → 42 puntos → Guardado.
+      → MVIV comp 4: 33 nodos → 3196 puntos → Guardado.
+   🔹 Procesando prefijo: WIDS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_70/WIDS/mapper_WIDS.html' is generated. You can now use your favorite web browser to visualize it.
+      → WIDS comp 2: 10 nodos → 1398 puntos → Guardado.
+      → WIDS comp 4: 14 nodos → 210 puntos → Guardado.
+   🔹 Procesando prefijo: WIDSL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_70/WIDSL/mapper_WIDSL.html' is generated. You can now use your favorite web browser to visualize it.
+      → WIDSL comp 1: 7 nodos → 57 puntos → Guardado.
+   🔹 Procesando prefijo: WLEC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_70/WLEC/mapper_WLEC.html' is generated. You can now use your favorite web browser to visualize it.
+      → WLEC comp 1: 14 nodos → 39066 puntos → Guardado.
+   🔹 Procesando prefijo: WSUT
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_70/WSUT/mapper_WSUT.html' is generated. You can now use your favorite web browser to visualize it.
+      → WSUT comp 3: 7 nodos → 65 puntos → Guardado.
+      → WSUT comp 4: 6 nodos → 36 puntos → Guardado.
+   🔹 Procesando prefijo: WVAE
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_70/WVAE/mapper_WVAE.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVAE comp 1: 27 nodos → 3010 puntos → Guardado.
+      → WVAE comp 2: 9 nodos → 72 puntos → Guardado.
+      → WVAE comp 7: 5 nodos → 30 puntos → Guardado.
+      → WVAE comp 8: 6 nodos → 760 puntos → Guardado.
+   🔹 Procesando prefijo: WVAL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_70/WVAL/mapper_WVAL.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVAL comp 1: 21 nodos → 2121 puntos → Guardado.
+      → WVAL comp 3: 19 nodos → 205 puntos → Guardado.
+   🔹 Procesando prefijo: WVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_70/WVIV/mapper_WVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVIV comp 1: 33 nodos → 4507 puntos → Guardado.
+
+📂 Nivel 80
+   🔹 Procesando prefijo: MCEFL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_80/MCEFL/mapper_MCEFL.html' is generated. You can now use your favorite web browser to visualize it.
+      → MCEFL comp 1: 23 nodos → 4966 puntos → Guardado.
+      → MCEFL comp 3: 8 nodos → 954 puntos → Guardado.
+      → MCEFL comp 6: 12 nodos → 1346 puntos → Guardado.
+      → MCEFL comp 11: 6 nodos → 992 puntos → Guardado.
+      → MCEFL comp 13: 7 nodos → 749 puntos → Guardado.
+      → MCEFL comp 18: 6 nodos → 391 puntos → Guardado.
+   🔹 Procesando prefijo: MIA
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_80/MIA/mapper_MIA.html' is generated. You can now use your favorite web browser to visualize it.
+      → MIA comp 1: 22 nodos → 53816 puntos → Guardado.
+      → MIA comp 2: 5 nodos → 123 puntos → Guardado.
+   🔹 Procesando prefijo: MRS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_80/MRS/mapper_MRS.html' is generated. You can now use your favorite web browser to visualize it.
+      → MRS comp 1: 38 nodos → 18392 puntos → Guardado.
+      → MRS comp 3: 17 nodos → 2224 puntos → Guardado.
+      → MRS comp 5: 5 nodos → 50 puntos → Guardado.
+   🔹 Procesando prefijo: MSC
+⚠️ Prefijo MSC tiene solo 574 filas (< 600), se salta.
+   🔹 Procesando prefijo: MSFC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_80/MSFC/mapper_MSFC.html' is generated. You can now use your favorite web browser to visualize it.
+      → MSFC comp 1: 18 nodos → 3983 puntos → Guardado.
+      → MSFC comp 2: 22 nodos → 4009 puntos → Guardado.
+   🔹 Procesando prefijo: MVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_80/MVIV/mapper_MVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → MVIV comp 3: 6 nodos → 42 puntos → Guardado.
+      → MVIV comp 4: 33 nodos → 3652 puntos → Guardado.
+   🔹 Procesando prefijo: WIDS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_80/WIDS/mapper_WIDS.html' is generated. You can now use your favorite web browser to visualize it.
+      → WIDS comp 1: 10 nodos → 1614 puntos → Guardado.
+      → WIDS comp 2: 14 nodos → 210 puntos → Guardado.
+   🔹 Procesando prefijo: WIDSL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_80/WIDSL/mapper_WIDSL.html' is generated. You can now use your favorite web browser to visualize it.
+      → WIDSL comp 1: 8 nodos → 57 puntos → Guardado.
+      → WIDSL comp 7: 6 nodos → 352 puntos → Guardado.
+   🔹 Procesando prefijo: WLEC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_80/WLEC/mapper_WLEC.html' is generated. You can now use your favorite web browser to visualize it.
+      → WLEC comp 1: 12 nodos → 44681 puntos → Guardado.
+      → WLEC comp 4: 5 nodos → 151 puntos → Guardado.
+   🔹 Procesando prefijo: WSUT
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_80/WSUT/mapper_WSUT.html' is generated. You can now use your favorite web browser to visualize it.
+      → WSUT comp 3: 7 nodos → 65 puntos → Guardado.
+      → WSUT comp 4: 6 nodos → 36 puntos → Guardado.
+   🔹 Procesando prefijo: WVAE
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_80/WVAE/mapper_WVAE.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVAE comp 1: 27 nodos → 3442 puntos → Guardado.
+      → WVAE comp 2: 9 nodos → 72 puntos → Guardado.
+      → WVAE comp 7: 5 nodos → 30 puntos → Guardado.
+      → WVAE comp 8: 6 nodos → 880 puntos → Guardado.
+   🔹 Procesando prefijo: WVAL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_80/WVAL/mapper_WVAL.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVAL comp 1: 19 nodos → 2457 puntos → Guardado.
+      → WVAL comp 3: 19 nodos → 205 puntos → Guardado.
+   🔹 Procesando prefijo: WVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_80/WVIV/mapper_WVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVIV comp 1: 32 nodos → 5157 puntos → Guardado.
+
+📂 Nivel 90
+   🔹 Procesando prefijo: MCEFL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_90/MCEFL/mapper_MCEFL.html' is generated. You can now use your favorite web browser to visualize it.
+      → MCEFL comp 1: 32 nodos → 6970 puntos → Guardado.
+      → MCEFL comp 3: 6 nodos → 854 puntos → Guardado.
+      → MCEFL comp 11: 5 nodos → 329 puntos → Guardado.
+   🔹 Procesando prefijo: MIA
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_90/MIA/mapper_MIA.html' is generated. You can now use your favorite web browser to visualize it.
+      → MIA comp 2: 22 nodos → 46432 puntos → Guardado.
+   🔹 Procesando prefijo: MRS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_90/MRS/mapper_MRS.html' is generated. You can now use your favorite web browser to visualize it.
+      → MRS comp 1: 37 nodos → 16047 puntos → Guardado.
+      → MRS comp 2: 7 nodos → 676 puntos → Guardado.
+      → MRS comp 3: 5 nodos → 1059 puntos → Guardado.
+      → MRS comp 4: 6 nodos → 37 puntos → Guardado.
+      → MRS comp 7: 6 nodos → 203 puntos → Guardado.
+   🔹 Procesando prefijo: MSC
+⚠️ Prefijo MSC tiene solo 486 filas (< 600), se salta.
+   🔹 Procesando prefijo: MSFC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_90/MSFC/mapper_MSFC.html' is generated. You can now use your favorite web browser to visualize it.
+      → MSFC comp 1: 20 nodos → 3400 puntos → Guardado.
+      → MSFC comp 2: 23 nodos → 3402 puntos → Guardado.
+   🔹 Procesando prefijo: MVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_90/MVIV/mapper_MVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → MVIV comp 1: 31 nodos → 3109 puntos → Guardado.
+   🔹 Procesando prefijo: WIDS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_90/WIDS/mapper_WIDS.html' is generated. You can now use your favorite web browser to visualize it.
+      → WIDS comp 1: 10 nodos → 1830 puntos → Guardado.
+      → WIDS comp 2: 14 nodos → 210 puntos → Guardado.
+   🔹 Procesando prefijo: WIDSL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_90/WIDSL/mapper_WIDSL.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: WLEC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_90/WLEC/mapper_WLEC.html' is generated. You can now use your favorite web browser to visualize it.
+      → WLEC comp 1: 13 nodos → 38227 puntos → Guardado.
+   🔹 Procesando prefijo: WSUT
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_90/WSUT/mapper_WSUT.html' is generated. You can now use your favorite web browser to visualize it.
+      → WSUT comp 1: 5 nodos → 39 puntos → Guardado.
+   🔹 Procesando prefijo: WVAE
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_90/WVAE/mapper_WVAE.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVAE comp 1: 6 nodos → 745 puntos → Guardado.
+      → WVAE comp 2: 5 nodos → 25 puntos → Guardado.
+      → WVAE comp 3: 7 nodos → 40 puntos → Guardado.
+      → WVAE comp 4: 29 nodos → 2914 puntos → Guardado.
+   🔹 Procesando prefijo: WVAL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_90/WVAL/mapper_WVAL.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVAL comp 1: 17 nodos → 2089 puntos → Guardado.
+      → WVAL comp 3: 18 nodos → 151 puntos → Guardado.
+   🔹 Procesando prefijo: WVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_90/WVIV/mapper_WVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVIV comp 1: 31 nodos → 3289 puntos → Guardado.
+      → WVIV comp 2: 6 nodos → 1239 puntos → Guardado.
+
+📂 Nivel 100
+   🔹 Procesando prefijo: MCEFL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_100/MCEFL/mapper_MCEFL.html' is generated. You can now use your favorite web browser to visualize it.
+      → MCEFL comp 1: 28 nodos → 6992 puntos → Guardado.
+      → MCEFL comp 2: 5 nodos → 381 puntos → Guardado.
+      → MCEFL comp 5: 6 nodos → 934 puntos → Guardado.
+      → MCEFL comp 7: 7 nodos → 711 puntos → Guardado.
+      → MCEFL comp 9: 5 nodos → 374 puntos → Guardado.
+   🔹 Procesando prefijo: MIA
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_100/MIA/mapper_MIA.html' is generated. You can now use your favorite web browser to visualize it.
+      → MIA comp 1: 22 nodos → 51300 puntos → Guardado.
+   🔹 Procesando prefijo: MRS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_100/MRS/mapper_MRS.html' is generated. You can now use your favorite web browser to visualize it.
+      → MRS comp 1: 38 nodos → 17536 puntos → Guardado.
+      → MRS comp 2: 7 nodos → 555 puntos → Guardado.
+      → MRS comp 4: 6 nodos → 1171 puntos → Guardado.
+      → MRS comp 10: 5 nodos → 35 puntos → Guardado.
+   🔹 Procesando prefijo: MSC
+⚠️ Prefijo MSC tiene solo 538 filas (< 600), se salta.
+   🔹 Procesando prefijo: MSFC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_100/MSFC/mapper_MSFC.html' is generated. You can now use your favorite web browser to visualize it.
+      → MSFC comp 1: 20 nodos → 3725 puntos → Guardado.
+      → MSFC comp 2: 18 nodos → 3113 puntos → Guardado.
+   🔹 Procesando prefijo: MVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_100/MVIV/mapper_MVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → MVIV comp 1: 35 nodos → 3440 puntos → Guardado.
+   🔹 Procesando prefijo: WIDS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_100/WIDS/mapper_WIDS.html' is generated. You can now use your favorite web browser to visualize it.
+      → WIDS comp 1: 10 nodos → 2046 puntos → Guardado.
+      → WIDS comp 2: 14 nodos → 210 puntos → Guardado.
+   🔹 Procesando prefijo: WIDSL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_100/WIDSL/mapper_WIDSL.html' is generated. You can now use your favorite web browser to visualize it.
+      → WIDSL comp 4: 5 nodos → 39 puntos → Guardado.
+      → WIDSL comp 6: 7 nodos → 367 puntos → Guardado.
+   🔹 Procesando prefijo: WLEC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_100/WLEC/mapper_WLEC.html' is generated. You can now use your favorite web browser to visualize it.
+      → WLEC comp 1: 12 nodos → 42227 puntos → Guardado.
+      → WLEC comp 4: 5 nodos → 120 puntos → Guardado.
+   🔹 Procesando prefijo: WSUT
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_100/WSUT/mapper_WSUT.html' is generated. You can now use your favorite web browser to visualize it.
+      → WSUT comp 4: 5 nodos → 47 puntos → Guardado.
+   🔹 Procesando prefijo: WVAE
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_100/WVAE/mapper_WVAE.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVAE comp 1: 28 nodos → 3204 puntos → Guardado.
+      → WVAE comp 2: 6 nodos → 188 puntos → Guardado.
+      → WVAE comp 9: 5 nodos → 24 puntos → Guardado.
+      → WVAE comp 10: 6 nodos → 846 puntos → Guardado.
+   🔹 Procesando prefijo: WVAL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_100/WVAL/mapper_WVAL.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVAL comp 1: 20 nodos → 151 puntos → Guardado.
+      → WVAL comp 2: 12 nodos → 2147 puntos → Guardado.
+      → WVAL comp 6: 6 nodos → 191 puntos → Guardado.
+   🔹 Procesando prefijo: WVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt3_100/WVIV/mapper_WVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVIV comp 1: 35 nodos → 4995 puntos → Guardado.
+      → WVIV comp 3: 6 nodos → 25 puntos → Guardado.
+
+============================
+  🔁 Iteración 4
+============================
+
+📂 Nivel 10
+   🔹 Procesando prefijo: MCEFL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_10/MCEFL/mapper_MCEFL.html' is generated. You can now use your favorite web browser to visualize it.
+      → MCEFL comp 1: 5 nodos → 174 puntos → Guardado.
+      → MCEFL comp 7: 6 nodos → 96 puntos → Guardado.
+   🔹 Procesando prefijo: MIA
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_10/MIA/mapper_MIA.html' is generated. You can now use your favorite web browser to visualize it.
+      → MIA comp 1: 11 nodos → 876 puntos → Guardado.
+      → MIA comp 2: 5 nodos → 519 puntos → Guardado.
+   🔹 Procesando prefijo: MRS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_10/MRS/mapper_MRS.html' is generated. You can now use your favorite web browser to visualize it.
+      → MRS comp 1: 9 nodos → 275 puntos → Guardado.
+      → MRS comp 19: 9 nodos → 444 puntos → Guardado.
+   🔹 Procesando prefijo: MSC
+⚠️ Prefijo MSC tiene solo 54 filas (< 600), se salta.
+   🔹 Procesando prefijo: MSFC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_10/MSFC/mapper_MSFC.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: MVIV
+⚠️ Prefijo MVIV tiene solo 414 filas (< 600), se salta.
+   🔹 Procesando prefijo: WIDS
+⚠️ Prefijo WIDS tiene solo 393 filas (< 600), se salta.
+   🔹 Procesando prefijo: WIDSL
+⚠️ Prefijo WIDSL tiene solo 144 filas (< 600), se salta.
+   🔹 Procesando prefijo: WLEC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_10/WLEC/mapper_WLEC.html' is generated. You can now use your favorite web browser to visualize it.
+      → WLEC comp 1: 22 nodos → 2060 puntos → Guardado.
+      → WLEC comp 2: 11 nodos → 2034 puntos → Guardado.
+   🔹 Procesando prefijo: WSUT
+⚠️ Prefijo WSUT tiene solo 198 filas (< 600), se salta.
+   🔹 Procesando prefijo: WVAE
+⚠️ Prefijo WVAE tiene solo 486 filas (< 600), se salta.
+   🔹 Procesando prefijo: WVAL
+⚠️ Prefijo WVAL tiene solo 252 filas (< 600), se salta.
+   🔹 Procesando prefijo: WVIV
+⚠️ Prefijo WVIV tiene solo 522 filas (< 600), se salta.
+
+📂 Nivel 20
+   🔹 Procesando prefijo: MCEFL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_20/MCEFL/mapper_MCEFL.html' is generated. You can now use your favorite web browser to visualize it.
+      → MCEFL comp 1: 5 nodos → 470 puntos → Guardado.
+      → MCEFL comp 10: 6 nodos → 235 puntos → Guardado.
+   🔹 Procesando prefijo: MIA
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_20/MIA/mapper_MIA.html' is generated. You can now use your favorite web browser to visualize it.
+      → MIA comp 1: 5 nodos → 518 puntos → Guardado.
+      → MIA comp 2: 6 nodos → 1598 puntos → Guardado.
+      → MIA comp 3: 8 nodos → 3713 puntos → Guardado.
+      → MIA comp 10: 6 nodos → 376 puntos → Guardado.
+      → MIA comp 17: 6 nodos → 517 puntos → Guardado.
+      → MIA comp 18: 11 nodos → 1927 puntos → Guardado.
+      → MIA comp 21: 5 nodos → 423 puntos → Guardado.
+   🔹 Procesando prefijo: MRS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_20/MRS/mapper_MRS.html' is generated. You can now use your favorite web browser to visualize it.
+      → MRS comp 1: 10 nodos → 1316 puntos → Guardado.
+      → MRS comp 15: 8 nodos → 705 puntos → Guardado.
+   🔹 Procesando prefijo: MSC
+⚠️ Prefijo MSC tiene solo 142 filas (< 600), se salta.
+   🔹 Procesando prefijo: MSFC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_20/MSFC/mapper_MSFC.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: MVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_20/MVIV/mapper_MVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → MVIV comp 10: 5 nodos → 141 puntos → Guardado.
+   🔹 Procesando prefijo: WIDS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_20/WIDS/mapper_WIDS.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: WIDSL
+⚠️ Prefijo WIDSL tiene solo 377 filas (< 600), se salta.
+   🔹 Procesando prefijo: WLEC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_20/WLEC/mapper_WLEC.html' is generated. You can now use your favorite web browser to visualize it.
+      → WLEC comp 1: 13 nodos → 5499 puntos → Guardado.
+      → WLEC comp 2: 12 nodos → 5359 puntos → Guardado.
+   🔹 Procesando prefijo: WSUT
+⚠️ Prefijo WSUT tiene solo 518 filas (< 600), se salta.
+   🔹 Procesando prefijo: WVAE
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_20/WVAE/mapper_WVAE.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: WVAL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_20/WVAL/mapper_WVAL.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVAL comp 1: 5 nodos → 140 puntos → Guardado.
+      → WVAL comp 12: 5 nodos → 184 puntos → Guardado.
+   🔹 Procesando prefijo: WVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_20/WVIV/mapper_WVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVIV comp 5: 6 nodos → 234 puntos → Guardado.
+
+📂 Nivel 30
+   🔹 Procesando prefijo: MCEFL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_30/MCEFL/mapper_MCEFL.html' is generated. You can now use your favorite web browser to visualize it.
+      → MCEFL comp 1: 6 nodos → 710 puntos → Guardado.
+      → MCEFL comp 3: 5 nodos → 355 puntos → Guardado.
+      → MCEFL comp 10: 6 nodos → 355 puntos → Guardado.
+   🔹 Procesando prefijo: MIA
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_30/MIA/mapper_MIA.html' is generated. You can now use your favorite web browser to visualize it.
+      → MIA comp 1: 5 nodos → 782 puntos → Guardado.
+      → MIA comp 2: 5 nodos → 852 puntos → Guardado.
+      → MIA comp 3: 30 nodos → 14839 puntos → Guardado.
+      → MIA comp 9: 9 nodos → 2911 puntos → Guardado.
+   🔹 Procesando prefijo: MRS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_30/MRS/mapper_MRS.html' is generated. You can now use your favorite web browser to visualize it.
+      → MRS comp 1: 10 nodos → 1988 puntos → Guardado.
+      → MRS comp 14: 8 nodos → 1065 puntos → Guardado.
+   🔹 Procesando prefijo: MSC
+⚠️ Prefijo MSC tiene solo 214 filas (< 600), se salta.
+   🔹 Procesando prefijo: MSFC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_30/MSFC/mapper_MSFC.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: MVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_30/MVIV/mapper_MVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → MVIV comp 10: 5 nodos → 213 puntos → Guardado.
+      → MVIV comp 12: 5 nodos → 283 puntos → Guardado.
+   🔹 Procesando prefijo: WIDS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_30/WIDS/mapper_WIDS.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: WIDSL
+⚠️ Prefijo WIDSL tiene solo 569 filas (< 600), se salta.
+   🔹 Procesando prefijo: WLEC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_30/WLEC/mapper_WLEC.html' is generated. You can now use your favorite web browser to visualize it.
+      → WLEC comp 1: 15 nodos → 16402 puntos → Guardado.
+   🔹 Procesando prefijo: WSUT
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_30/WSUT/mapper_WSUT.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: WVAE
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_30/WVAE/mapper_WVAE.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: WVAL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_30/WVAL/mapper_WVAL.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVAL comp 1: 5 nodos → 212 puntos → Guardado.
+      → WVAL comp 11: 6 nodos → 281 puntos → Guardado.
+   🔹 Procesando prefijo: WVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_30/WVIV/mapper_WVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVIV comp 16: 6 nodos → 354 puntos → Guardado.
+
+📂 Nivel 40
+   🔹 Procesando prefijo: MCEFL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_40/MCEFL/mapper_MCEFL.html' is generated. You can now use your favorite web browser to visualize it.
+      → MCEFL comp 1: 6 nodos → 950 puntos → Guardado.
+      → MCEFL comp 3: 5 nodos → 475 puntos → Guardado.
+      → MCEFL comp 10: 6 nodos → 475 puntos → Guardado.
+   🔹 Procesando prefijo: MIA
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_40/MIA/mapper_MIA.html' is generated. You can now use your favorite web browser to visualize it.
+      → MIA comp 1: 23 nodos → 26697 puntos → Guardado.
+   🔹 Procesando prefijo: MRS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_40/MRS/mapper_MRS.html' is generated. You can now use your favorite web browser to visualize it.
+      → MRS comp 1: 10 nodos → 2850 puntos → Guardado.
+      → MRS comp 13: 8 nodos → 1425 puntos → Guardado.
+   🔹 Procesando prefijo: MSC
+⚠️ Prefijo MSC tiene solo 286 filas (< 600), se salta.
+   🔹 Procesando prefijo: MSFC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_40/MSFC/mapper_MSFC.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: MVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_40/MVIV/mapper_MVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → MVIV comp 10: 5 nodos → 285 puntos → Guardado.
+      → MVIV comp 11: 7 nodos → 475 puntos → Guardado.
+   🔹 Procesando prefijo: WIDS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_40/WIDS/mapper_WIDS.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: WIDSL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_40/WIDSL/mapper_WIDSL.html' is generated. You can now use your favorite web browser to visualize it.
+      → WIDSL comp 2: 5 nodos → 380 puntos → Guardado.
+   🔹 Procesando prefijo: WLEC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_40/WLEC/mapper_WLEC.html' is generated. You can now use your favorite web browser to visualize it.
+      → WLEC comp 1: 11 nodos → 21851 puntos → Guardado.
+   🔹 Procesando prefijo: WSUT
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_40/WSUT/mapper_WSUT.html' is generated. You can now use your favorite web browser to visualize it.
+   🔹 Procesando prefijo: WVAE
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_40/WVAE/mapper_WVAE.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVAE comp 9: 5 nodos → 380 puntos → Guardado.
+   🔹 Procesando prefijo: WVAL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_40/WVAL/mapper_WVAL.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVAL comp 1: 6 nodos → 284 puntos → Guardado.
+      → WVAL comp 11: 6 nodos → 377 puntos → Guardado.
+   🔹 Procesando prefijo: WVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_40/WVIV/mapper_WVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVIV comp 5: 6 nodos → 475 puntos → Guardado.
+
+📂 Nivel 50
+   🔹 Procesando prefijo: MCEFL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_50/MCEFL/mapper_MCEFL.html' is generated. You can now use your favorite web browser to visualize it.
+      → MCEFL comp 1: 38 nodos → 7631 puntos → Guardado.
+      → MCEFL comp 2: 5 nodos → 388 puntos → Guardado.
+      → MCEFL comp 4: 5 nodos → 144 puntos → Guardado.
+      → MCEFL comp 5: 6 nodos → 916 puntos → Guardado.
+      → MCEFL comp 8: 5 nodos → 379 puntos → Guardado.
+   🔹 Procesando prefijo: MIA
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_50/MIA/mapper_MIA.html' is generated. You can now use your favorite web browser to visualize it.
+      → MIA comp 1: 30 nodos → 51014 puntos → Guardado.
+   🔹 Procesando prefijo: MRS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_50/MRS/mapper_MRS.html' is generated. You can now use your favorite web browser to visualize it.
+      → MRS comp 1: 12 nodos → 603 puntos → Guardado.
+      → MRS comp 2: 36 nodos → 16760 puntos → Guardado.
+      → MRS comp 4: 11 nodos → 1564 puntos → Guardado.
+   🔹 Procesando prefijo: MSC
+⚠️ Prefijo MSC tiene solo 535 filas (< 600), se salta.
+   🔹 Procesando prefijo: MSFC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_50/MSFC/mapper_MSFC.html' is generated. You can now use your favorite web browser to visualize it.
+      → MSFC comp 1: 21 nodos → 3706 puntos → Guardado.
+      → MSFC comp 2: 23 nodos → 3751 puntos → Guardado.
+   🔹 Procesando prefijo: MVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_50/MVIV/mapper_MVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → MVIV comp 1: 5 nodos → 28 puntos → Guardado.
+      → MVIV comp 3: 31 nodos → 3388 puntos → Guardado.
+   🔹 Procesando prefijo: WIDS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_50/WIDS/mapper_WIDS.html' is generated. You can now use your favorite web browser to visualize it.
+      → WIDS comp 1: 10 nodos → 2039 puntos → Guardado.
+      → WIDS comp 2: 14 nodos → 209 puntos → Guardado.
+   🔹 Procesando prefijo: WIDSL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_50/WIDSL/mapper_WIDSL.html' is generated. You can now use your favorite web browser to visualize it.
+      → WIDSL comp 1: 5 nodos → 42 puntos → Guardado.
+   🔹 Procesando prefijo: WLEC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_50/WLEC/mapper_WLEC.html' is generated. You can now use your favorite web browser to visualize it.
+      → WLEC comp 1: 13 nodos → 42096 puntos → Guardado.
+   🔹 Procesando prefijo: WSUT
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_50/WSUT/mapper_WSUT.html' is generated. You can now use your favorite web browser to visualize it.
+      → WSUT comp 1: 5 nodos → 46 puntos → Guardado.
+   🔹 Procesando prefijo: WVAE
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_50/WVAE/mapper_WVAE.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVAE comp 1: 28 nodos → 3209 puntos → Guardado.
+      → WVAE comp 6: 7 nodos → 36 puntos → Guardado.
+      → WVAE comp 8: 5 nodos → 20 puntos → Guardado.
+      → WVAE comp 9: 5 nodos → 832 puntos → Guardado.
+   🔹 Procesando prefijo: WVAL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_50/WVAL/mapper_WVAL.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVAL comp 1: 18 nodos → 2320 puntos → Guardado.
+      → WVAL comp 2: 25 nodos → 161 puntos → Guardado.
+   🔹 Procesando prefijo: WVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_50/WVIV/mapper_WVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVIV comp 1: 25 nodos → 4914 puntos → Guardado.
+      → WVIV comp 2: 7 nodos → 50 puntos → Guardado.
+
+📂 Nivel 60
+   🔹 Procesando prefijo: MCEFL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_60/MCEFL/mapper_MCEFL.html' is generated. You can now use your favorite web browser to visualize it.
+      → MCEFL comp 1: 21 nodos → 3718 puntos → Guardado.
+      → MCEFL comp 3: 8 nodos → 714 puntos → Guardado.
+      → MCEFL comp 6: 12 nodos → 1010 puntos → Guardado.
+      → MCEFL comp 10: 6 nodos → 752 puntos → Guardado.
+      → MCEFL comp 13: 7 nodos → 557 puntos → Guardado.
+      → MCEFL comp 17: 7 nodos → 302 puntos → Guardado.
+   🔹 Procesando prefijo: MIA
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_60/MIA/mapper_MIA.html' is generated. You can now use your favorite web browser to visualize it.
+      → MIA comp 1: 30 nodos → 40197 puntos → Guardado.
+   🔹 Procesando prefijo: MRS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_60/MRS/mapper_MRS.html' is generated. You can now use your favorite web browser to visualize it.
+      → MRS comp 1: 39 nodos → 13784 puntos → Guardado.
+      → MRS comp 3: 12 nodos → 514 puntos → Guardado.
+      → MRS comp 4: 11 nodos → 1184 puntos → Guardado.
+   🔹 Procesando prefijo: MSC
+⚠️ Prefijo MSC tiene solo 430 filas (< 600), se salta.
+   🔹 Procesando prefijo: MSFC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_60/MSFC/mapper_MSFC.html' is generated. You can now use your favorite web browser to visualize it.
+      → MSFC comp 1: 18 nodos → 2975 puntos → Guardado.
+      → MSFC comp 2: 19 nodos → 2500 puntos → Guardado.
+   🔹 Procesando prefijo: MVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_60/MVIV/mapper_MVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → MVIV comp 3: 6 nodos → 42 puntos → Guardado.
+      → MVIV comp 4: 34 nodos → 2740 puntos → Guardado.
+   🔹 Procesando prefijo: WIDS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_60/WIDS/mapper_WIDS.html' is generated. You can now use your favorite web browser to visualize it.
+      → WIDS comp 2: 10 nodos → 1182 puntos → Guardado.
+      → WIDS comp 4: 14 nodos → 210 puntos → Guardado.
+   🔹 Procesando prefijo: WIDSL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_60/WIDSL/mapper_WIDSL.html' is generated. You can now use your favorite web browser to visualize it.
+      → WIDSL comp 1: 8 nodos → 57 puntos → Guardado.
+   🔹 Procesando prefijo: WLEC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_60/WLEC/mapper_WLEC.html' is generated. You can now use your favorite web browser to visualize it.
+      → WLEC comp 1: 21 nodos → 33412 puntos → Guardado.
+   🔹 Procesando prefijo: WSUT
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_60/WSUT/mapper_WSUT.html' is generated. You can now use your favorite web browser to visualize it.
+      → WSUT comp 3: 7 nodos → 65 puntos → Guardado.
+      → WSUT comp 4: 6 nodos → 36 puntos → Guardado.
+   🔹 Procesando prefijo: WVAE
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_60/WVAE/mapper_WVAE.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVAE comp 1: 27 nodos → 2578 puntos → Guardado.
+      → WVAE comp 2: 9 nodos → 72 puntos → Guardado.
+      → WVAE comp 7: 5 nodos → 30 puntos → Guardado.
+      → WVAE comp 8: 6 nodos → 640 puntos → Guardado.
+   🔹 Procesando prefijo: WVAL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_60/WVAL/mapper_WVAL.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVAL comp 1: 21 nodos → 1785 puntos → Guardado.
+      → WVAL comp 3: 18 nodos → 205 puntos → Guardado.
+   🔹 Procesando prefijo: WVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_60/WVIV/mapper_WVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVIV comp 1: 36 nodos → 3860 puntos → Guardado.
+
+📂 Nivel 70
+   🔹 Procesando prefijo: MCEFL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_70/MCEFL/mapper_MCEFL.html' is generated. You can now use your favorite web browser to visualize it.
+      → MCEFL comp 1: 22 nodos → 4342 puntos → Guardado.
+      → MCEFL comp 3: 8 nodos → 834 puntos → Guardado.
+      → MCEFL comp 6: 12 nodos → 1178 puntos → Guardado.
+      → MCEFL comp 11: 6 nodos → 872 puntos → Guardado.
+      → MCEFL comp 13: 7 nodos → 653 puntos → Guardado.
+      → MCEFL comp 18: 6 nodos → 343 puntos → Guardado.
+   🔹 Procesando prefijo: MIA
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_70/MIA/mapper_MIA.html' is generated. You can now use your favorite web browser to visualize it.
+      → MIA comp 1: 22 nodos → 47072 puntos → Guardado.
+   🔹 Procesando prefijo: MRS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_70/MRS/mapper_MRS.html' is generated. You can now use your favorite web browser to visualize it.
+      → MRS comp 1: 38 nodos → 16088 puntos → Guardado.
+      → MRS comp 3: 22 nodos → 1986 puntos → Guardado.
+   🔹 Procesando prefijo: MSC
+⚠️ Prefijo MSC tiene solo 502 filas (< 600), se salta.
+   🔹 Procesando prefijo: MSFC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_70/MSFC/mapper_MSFC.html' is generated. You can now use your favorite web browser to visualize it.
+      → MSFC comp 1: 18 nodos → 3479 puntos → Guardado.
+      → MSFC comp 2: 19 nodos → 2908 puntos → Guardado.
+   🔹 Procesando prefijo: MVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_70/MVIV/mapper_MVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → MVIV comp 3: 6 nodos → 42 puntos → Guardado.
+      → MVIV comp 4: 33 nodos → 3196 puntos → Guardado.
+   🔹 Procesando prefijo: WIDS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_70/WIDS/mapper_WIDS.html' is generated. You can now use your favorite web browser to visualize it.
+      → WIDS comp 2: 10 nodos → 1398 puntos → Guardado.
+      → WIDS comp 4: 14 nodos → 210 puntos → Guardado.
+   🔹 Procesando prefijo: WIDSL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_70/WIDSL/mapper_WIDSL.html' is generated. You can now use your favorite web browser to visualize it.
+      → WIDSL comp 1: 7 nodos → 57 puntos → Guardado.
+   🔹 Procesando prefijo: WLEC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_70/WLEC/mapper_WLEC.html' is generated. You can now use your favorite web browser to visualize it.
+      → WLEC comp 1: 14 nodos → 39072 puntos → Guardado.
+   🔹 Procesando prefijo: WSUT
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_70/WSUT/mapper_WSUT.html' is generated. You can now use your favorite web browser to visualize it.
+      → WSUT comp 3: 7 nodos → 65 puntos → Guardado.
+      → WSUT comp 4: 6 nodos → 36 puntos → Guardado.
+   🔹 Procesando prefijo: WVAE
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_70/WVAE/mapper_WVAE.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVAE comp 1: 27 nodos → 3010 puntos → Guardado.
+      → WVAE comp 2: 9 nodos → 72 puntos → Guardado.
+      → WVAE comp 7: 5 nodos → 30 puntos → Guardado.
+      → WVAE comp 8: 6 nodos → 760 puntos → Guardado.
+   🔹 Procesando prefijo: WVAL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_70/WVAL/mapper_WVAL.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVAL comp 1: 21 nodos → 2121 puntos → Guardado.
+      → WVAL comp 3: 19 nodos → 205 puntos → Guardado.
+   🔹 Procesando prefijo: WVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_70/WVIV/mapper_WVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVIV comp 1: 32 nodos → 4509 puntos → Guardado.
+
+📂 Nivel 80
+   🔹 Procesando prefijo: MCEFL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_80/MCEFL/mapper_MCEFL.html' is generated. You can now use your favorite web browser to visualize it.
+      → MCEFL comp 1: 22 nodos → 4966 puntos → Guardado.
+      → MCEFL comp 3: 8 nodos → 954 puntos → Guardado.
+      → MCEFL comp 6: 12 nodos → 1346 puntos → Guardado.
+      → MCEFL comp 11: 6 nodos → 992 puntos → Guardado.
+      → MCEFL comp 13: 7 nodos → 749 puntos → Guardado.
+      → MCEFL comp 18: 6 nodos → 398 puntos → Guardado.
+   🔹 Procesando prefijo: MIA
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_80/MIA/mapper_MIA.html' is generated. You can now use your favorite web browser to visualize it.
+      → MIA comp 1: 22 nodos → 53816 puntos → Guardado.
+      → MIA comp 2: 5 nodos → 123 puntos → Guardado.
+   🔹 Procesando prefijo: MRS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_80/MRS/mapper_MRS.html' is generated. You can now use your favorite web browser to visualize it.
+      → MRS comp 1: 38 nodos → 18392 puntos → Guardado.
+      → MRS comp 3: 17 nodos → 2224 puntos → Guardado.
+      → MRS comp 5: 5 nodos → 50 puntos → Guardado.
+   🔹 Procesando prefijo: MSC
+⚠️ Prefijo MSC tiene solo 574 filas (< 600), se salta.
+   🔹 Procesando prefijo: MSFC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_80/MSFC/mapper_MSFC.html' is generated. You can now use your favorite web browser to visualize it.
+      → MSFC comp 1: 18 nodos → 3983 puntos → Guardado.
+      → MSFC comp 2: 22 nodos → 4009 puntos → Guardado.
+   🔹 Procesando prefijo: MVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_80/MVIV/mapper_MVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → MVIV comp 3: 6 nodos → 42 puntos → Guardado.
+      → MVIV comp 4: 33 nodos → 3653 puntos → Guardado.
+   🔹 Procesando prefijo: WIDS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_80/WIDS/mapper_WIDS.html' is generated. You can now use your favorite web browser to visualize it.
+      → WIDS comp 1: 10 nodos → 1614 puntos → Guardado.
+      → WIDS comp 2: 14 nodos → 210 puntos → Guardado.
+   🔹 Procesando prefijo: WIDSL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_80/WIDSL/mapper_WIDSL.html' is generated. You can now use your favorite web browser to visualize it.
+      → WIDSL comp 1: 8 nodos → 57 puntos → Guardado.
+      → WIDSL comp 7: 6 nodos → 352 puntos → Guardado.
+   🔹 Procesando prefijo: WLEC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_80/WLEC/mapper_WLEC.html' is generated. You can now use your favorite web browser to visualize it.
+      → WLEC comp 1: 12 nodos → 44681 puntos → Guardado.
+      → WLEC comp 4: 5 nodos → 151 puntos → Guardado.
+   🔹 Procesando prefijo: WSUT
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_80/WSUT/mapper_WSUT.html' is generated. You can now use your favorite web browser to visualize it.
+      → WSUT comp 3: 7 nodos → 65 puntos → Guardado.
+      → WSUT comp 4: 6 nodos → 36 puntos → Guardado.
+   🔹 Procesando prefijo: WVAE
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_80/WVAE/mapper_WVAE.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVAE comp 1: 27 nodos → 3442 puntos → Guardado.
+      → WVAE comp 2: 9 nodos → 72 puntos → Guardado.
+      → WVAE comp 7: 5 nodos → 30 puntos → Guardado.
+      → WVAE comp 8: 6 nodos → 880 puntos → Guardado.
+   🔹 Procesando prefijo: WVAL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_80/WVAL/mapper_WVAL.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVAL comp 1: 19 nodos → 2457 puntos → Guardado.
+      → WVAL comp 3: 19 nodos → 205 puntos → Guardado.
+   🔹 Procesando prefijo: WVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_80/WVIV/mapper_WVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVIV comp 1: 33 nodos → 5157 puntos → Guardado.
+
+📂 Nivel 90
+   🔹 Procesando prefijo: MCEFL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_90/MCEFL/mapper_MCEFL.html' is generated. You can now use your favorite web browser to visualize it.
+      → MCEFL comp 1: 28 nodos → 6295 puntos → Guardado.
+      → MCEFL comp 5: 7 nodos → 644 puntos → Guardado.
+      → MCEFL comp 8: 6 nodos → 836 puntos → Guardado.
+   🔹 Procesando prefijo: MIA
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_90/MIA/mapper_MIA.html' is generated. You can now use your favorite web browser to visualize it.
+      → MIA comp 2: 22 nodos → 46441 puntos → Guardado.
+      → MIA comp 8: 5 nodos → 90 puntos → Guardado.
+   🔹 Procesando prefijo: MRS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_90/MRS/mapper_MRS.html' is generated. You can now use your favorite web browser to visualize it.
+      → MRS comp 1: 7 nodos → 511 puntos → Guardado.
+      → MRS comp 2: 34 nodos → 15413 puntos → Guardado.
+      → MRS comp 6: 6 nodos → 1073 puntos → Guardado.
+      → MRS comp 9: 5 nodos → 625 puntos → Guardado.
+   🔹 Procesando prefijo: MSC
+⚠️ Prefijo MSC tiene solo 486 filas (< 600), se salta.
+   🔹 Procesando prefijo: MSFC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_90/MSFC/mapper_MSFC.html' is generated. You can now use your favorite web browser to visualize it.
+      → MSFC comp 2: 20 nodos → 3383 puntos → Guardado.
+      → MSFC comp 3: 18 nodos → 2795 puntos → Guardado.
+   🔹 Procesando prefijo: MVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_90/MVIV/mapper_MVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → MVIV comp 1: 29 nodos → 3083 puntos → Guardado.
+      → MVIV comp 3: 6 nodos → 33 puntos → Guardado.
+   🔹 Procesando prefijo: WIDS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_90/WIDS/mapper_WIDS.html' is generated. You can now use your favorite web browser to visualize it.
+      → WIDS comp 1: 10 nodos → 1830 puntos → Guardado.
+      → WIDS comp 2: 14 nodos → 210 puntos → Guardado.
+   🔹 Procesando prefijo: WIDSL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_90/WIDSL/mapper_WIDSL.html' is generated. You can now use your favorite web browser to visualize it.
+      → WIDSL comp 4: 6 nodos → 301 puntos → Guardado.
+      → WIDSL comp 5: 8 nodos → 47 puntos → Guardado.
+      → WIDSL comp 7: 5 nodos → 32 puntos → Guardado.
+   🔹 Procesando prefijo: WLEC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_90/WLEC/mapper_WLEC.html' is generated. You can now use your favorite web browser to visualize it.
+      → WLEC comp 1: 12 nodos → 38230 puntos → Guardado.
+   🔹 Procesando prefijo: WSUT
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_90/WSUT/mapper_WSUT.html' is generated. You can now use your favorite web browser to visualize it.
+      → WSUT comp 5: 7 nodos → 50 puntos → Guardado.
+   🔹 Procesando prefijo: WVAE
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_90/WVAE/mapper_WVAE.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVAE comp 1: 26 nodos → 2906 puntos → Guardado.
+      → WVAE comp 7: 5 nodos → 759 puntos → Guardado.
+      → WVAE comp 10: 8 nodos → 29 puntos → Guardado.
+   🔹 Procesando prefijo: WVAL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_90/WVAL/mapper_WVAL.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVAL comp 1: 18 nodos → 2097 puntos → Guardado.
+      → WVAL comp 4: 14 nodos → 139 puntos → Guardado.
+   🔹 Procesando prefijo: WVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_90/WVIV/mapper_WVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → WVIV comp 1: 32 nodos → 4530 puntos → Guardado.
+
+📂 Nivel 100
+   🔹 Procesando prefijo: MCEFL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_100/MCEFL/mapper_MCEFL.html' is generated. You can now use your favorite web browser to visualize it.
+      → MCEFL comp 1: 31 nodos → 6954 puntos → Guardado.
+      → MCEFL comp 3: 6 nodos → 923 puntos → Guardado.
+      → MCEFL comp 4: 7 nodos → 715 puntos → Guardado.
+      → MCEFL comp 7: 5 nodos → 398 puntos → Guardado.
+      → MCEFL comp 16: 6 nodos → 377 puntos → Guardado.
+   🔹 Procesando prefijo: MIA
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_100/MIA/mapper_MIA.html' is generated. You can now use your favorite web browser to visualize it.
+      → MIA comp 1: 22 nodos → 51280 puntos → Guardado.
+   🔹 Procesando prefijo: MRS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_100/MRS/mapper_MRS.html' is generated. You can now use your favorite web browser to visualize it.
+      → MRS comp 1: 38 nodos → 17720 puntos → Guardado.
+      → MRS comp 3: 6 nodos → 1180 puntos → Guardado.
+      → MRS comp 4: 7 nodos → 564 puntos → Guardado.
+      → MRS comp 6: 7 nodos → 55 puntos → Guardado.
+   🔹 Procesando prefijo: MSC
+⚠️ Prefijo MSC tiene solo 538 filas (< 600), se salta.
+   🔹 Procesando prefijo: MSFC
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_100/MSFC/mapper_MSFC.html' is generated. You can now use your favorite web browser to visualize it.
+      → MSFC comp 1: 20 nodos → 3772 puntos → Guardado.
+      → MSFC comp 2: 21 nodos → 3724 puntos → Guardado.
+   🔹 Procesando prefijo: MVIV
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_100/MVIV/mapper_MVIV.html' is generated. You can now use your favorite web browser to visualize it.
+      → MVIV comp 1: 30 nodos → 3400 puntos → Guardado.
+      → MVIV comp 5: 5 nodos → 679 puntos → Guardado.
+   🔹 Procesando prefijo: WIDS
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_100/WIDS/mapper_WIDS.html' is generated. You can now use your favorite web browser to visualize it.
+      → WIDS comp 1: 10 nodos → 2046 puntos → Guardado.
+      → WIDS comp 2: 14 nodos → 210 puntos → Guardado.
+   🔹 Procesando prefijo: WIDSL
+      → Calculo matriz de distancia
+      → Calculo cover complex
+'resultados4mt4_100/WIDSL/mapper_WIDSL.html' is generated. You can now use your favorite web browser to visualize it.
+      → WIDSL comp 8: 7 nodos → 42 puntos → Guardado.
+      → WIDSL comp 12: 6 nodos → 338 puntos → Guardado.
+   🔹 Procesando prefijo: WLEC
+      → Calculo matriz de distancia
+      → Calculo cover complex

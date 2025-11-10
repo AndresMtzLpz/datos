@@ -101,7 +101,7 @@ if __name__ == "__main__":
     prefijos_a_usar = [p for i, p in enumerate(prefijos_todos) if i not in (2, 6)]
 
     # Repetir 4 veces
-    for iteracion in range(1, 3):
+    for iteracion in range(2, 3):
         print(f"\n============================")
         print(f"  🔁 Iteración {iteracion}")
         print(f"============================")
@@ -144,7 +144,7 @@ if __name__ == "__main__":
                 # Cover complex
                 cover_complex = MapperComplex(
                     input_type='distance matrix', min_points_per_node=0,
-                    clustering=None, N=100, beta=0., C=10,
+                    clustering=None, N=600, beta=0., C=60,
                     filter_bnds=None, resolutions=[20, 2], gains=None, verbose=verbose
                 )
 

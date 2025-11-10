@@ -98,11 +98,11 @@ if __name__ == "__main__":
     ]
 
     # Prefijos a procesar (excluye 2 y 6)
-    prefijos_a_usar = [p for i, p in enumerate(prefijos_todos) if i not in (1,2,3,4,5,6,8,9,11,12)]
+    prefijos_a_usar = [p for i, p in enumerate(prefijos_todos) if i not in (2,6)]
     print(prefijos_a_usar)
 
     # Repetir 4 veces
-    for iteracion in range(3, 5):
+    for iteracion in range(1, 3):
         print(f"\n============================")
         print(f"  🔁 Iteración {iteracion}")
         print(f"============================")
@@ -112,8 +112,8 @@ if __name__ == "__main__":
             print(f"\n📂 Nivel {n}")
 
             carpeta_3m = f"3m/datosEstandarizados3m_{n}/"
-            carpeta_5m = f"10m/datosEstandarizados10m_{n}/"
-            carpeta_resultados = f"resultados10mt{iteracion}_{n}/"
+            carpeta_5m = f"4m/datosEstandarizados4m_{n}/"
+            carpeta_resultados = f"resultados4mt{iteracion}_{n}/"
             os.makedirs(carpeta_resultados, exist_ok=True)
 
             # calcular límites de líneas por prefijo con base en 3m
@@ -145,7 +145,7 @@ if __name__ == "__main__":
                 # Cover complex
                 cover_complex = MapperComplex(
                     input_type='distance matrix', min_points_per_node=0,
-                    clustering=None, N=600, beta=0., C=60,
+                    clustering=None, N=100, beta=0., C=10,
                     filter_bnds=None, resolutions=[20, 2], gains=None, verbose=verbose
                 )
 
