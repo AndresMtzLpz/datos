@@ -8,9 +8,9 @@ from gudhi.wasserstein import wasserstein_distance
 # Parámetros globales
 # -------------------------
 MAX_PUNTOS = 72000  # máximo de puntos por dimensión
-BASE_DIR = "../10mt3/"  # directorio donde están las carpetas resultados10m6_X
-PORCENTAJES = [f"resultados10mt3_{i}" for i in range(10, 101, 10)]
-OUTPUT_FILE = "distancias_wasserstein_10mt3.csv"
+BASE_DIR = "../4mt3/"  # directorio donde están las carpetas resultados10m6_X
+PORCENTAJES = [f"resultados4mt3_{i}" for i in range(10, 101, 10)]
+OUTPUT_FILE = "distancias_wasserstein_4mt3.csv"
 
 # -------------------------
 # Función para cargar un CSV como diagrama de persistencia
