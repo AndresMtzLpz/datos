@@ -102,7 +102,7 @@ if __name__ == "__main__":
     print(prefijos_a_usar)
 
     # Repetir 4 veces
-    for iteracion in range(4, 6):
+    for iteracion in range(1, 3):
         print(f"\n============================")
         print(f"  🔁 Iteración {iteracion}")
         print(f"============================")
@@ -112,8 +112,8 @@ if __name__ == "__main__":
             print(f"\n📂 Nivel {n}")
 
             carpeta_3m = f"3m/datosEstandarizados3m_{n}/"
-            carpeta_5m = f"10m/datosEstandarizados10m_{n}/"
-            carpeta_resultados = f"resultados10mt{iteracion}_{n}/"
+            carpeta_5m = f"5m/datosEstandarizados5m_{n}/"
+            carpeta_resultados = f"resultados5mt{iteracion}_{n}/"
             os.makedirs(carpeta_resultados, exist_ok=True)
 
             # calcular límites de líneas por prefijo con base en 3m
